@@ -9,7 +9,13 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels?
+
+The domain I chose is how to style and maintain naturally curly hair, specifically based on different hairstyles and hair types. This knowledge is valuable because many people beginning their natural hair care journey do not know where to start or who to trust due to the amount of conflicting information available online. Advice about styling techniques, products, and hair types is often spread across social media, blogs, forums, and personal experiences rather than being available through one reliable source. This project will bring that information together in one central place, making it easier for people interested in natural hair care to find practical and relevant guidance.
+
+ --> 
+
+
 
 ---
 
@@ -20,16 +26,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Blog | Gives a crash course on hair density, including what it is, how to determine hair density, and why it can matter for hair care. |https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care |
+| 2 | Subreddit| Discusses products that may help with fine, high-density curly hair on wash day based on the user's personal experience. |  https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/  |
+| 3 | Blog | Gives an overview of length retention and provides specific routines and tips for those interested in growing their hair and maintaining its health. | https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair |
+| 4 |Subreddit | A Reddit user who works out regularly asks how others maintain natural hair between washes and preserve hairstyles after exercising. Community members share different approaches based on their workout frequency, hairstyles, and personal preferences.|https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/? |
+| 5 | Forum | Discusses curl types and provides product recommendations for styling both looser and tighter curl patterns. https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/ |
+| 6 | Subreddit | A community discussion about heat-damaged hair that includes users' experiences and methods for restarting or adjusting their natural-hair routines. |  https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/ |
+| 7 | Blog | Discusses protective hairstyles for different curl patterns and how they may help reduce manipulation. | https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern|
+| 8 | Subreddit | Community members share strategies for preserving natural hairstyles and reducing frizz in humid conditions.| https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/ |
+| 9 | Subreddit| A community discussion focused on 4C hair, including styling techniques, maintenance practices, and product. | https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/  |
+| 10 | Subreddit | Discusses low-porosity hair through a user's personal hair-care journey, including routine and product considerations. | https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/ |
 
 ---
 
