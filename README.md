@@ -14,6 +14,8 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+ - The domain I chose is how to style and maintain naturally curly hair, specifically based on different hairstyles and hair types. This knowledge is valuable because many people beginning their natural hair care journey do not know where to start or who to trust due to the amount of conflicting information available online. Advice about styling techniques, products, and hair types is often spread across social media, blogs, forums, and personal experiences rather than being available through one reliable source. This project will bring that information together in one central place, making it easier for people interested in natural hair care to find practical and relevant guidance.
+
 ---
 
 ## Document Sources
@@ -24,16 +26,17 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | | 
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Blog | Gives a crash course on hair density, including what it is, how to determine hair density, and why it can matter for hair care. |https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care |
+| 2 | Subreddit| Discusses products that may help with fine, high-density curly hair on wash day based on the user's personal experience. |  https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/  |
+| 3 | Blog | Gives an overview of length retention and provides specific routines and tips for those interested in growing their hair and maintaining its health. | https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair |
+| 4 |Subreddit | A Reddit user who works out regularly asks how others maintain natural hair between washes and preserve hairstyles after exercising. Community members share different approaches based on their workout frequency, hairstyles, and personal preferences.|https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/? |
+| 5 | Forum | Discusses curl types and provides product recommendations for styling both looser and tighter curl patterns. https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/ |
+| 6 | Subreddit | A community discussion about heat-damaged hair that includes users' experiences and methods for restarting or adjusting their natural-hair routines. |  https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/ |
+| 7 | Blog | Discusses protective hairstyles for different curl patterns and how they may help reduce manipulation. | https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern|
+| 8 | Subreddit | Community members share strategies for preserving natural hairstyles and reducing frizz in humid conditions.| https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/ |
+| 9 | Subreddit| A community discussion focused on 4C hair, including styling techniques, maintenance practices, and product. | https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/  |
+| 10 | Subreddit | Discusses low-porosity hair through a user's personal hair-care journey, including routine and product considerations. | https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/ |
+
 
 ---
 
@@ -47,12 +50,16 @@
      - What your final chunk count was across all documents -->
 
 **Chunk size:**
+- 100 tokens
 
 **Overlap:**
+- 20 tokens 
 
 **Why these choices fit your documents:**
+- I initially planned to use 500 token chunks with a 75 token overlap. During implementation, the resulting chunks were too large and produced only 14 chunks across the 10 documents. Larger chunks also risk including unrelated information, which could make retrieval less precise for specific user questions. I therefore changed the strategy to 100 token chunks with a 20 token overlap. The smaller chunks should allow the retrieval system to identify more specific pieces of information while the overlap helps preserve context across chunk boundaries.
 
-**Final chunk count:**
+**Final chunk count:** 
+- 84 chunks
 
 ---
 
@@ -80,10 +87,11 @@
      Consider: context length limits, multilingual support, accuracy on domain-specific text,
      latency, and local vs. API-hosted. -->
 
-**Model used:**
+**Model used:** 
+- I used the all-MiniLM-L6-v2 via sentence-transformers embedding model because it was free and readily available for use. 
 
 **Production tradeoff reflection:**
-
+- If this system were deployed for real users, I would consider a more advanced embedding model if it provided better retrieval accuracy for domain-specific hair-care terminology. I would also consider context length, multilingual support, and latency. A more accurate model may improve retrieval quality, but it could also require more computational resources and increase response time.
 ---
 
 ## Retrieval Test Results
@@ -92,36 +100,133 @@
      For at least 2 of the 3, explain why the returned chunks are relevant to the query.
      Results must be text — not screenshots. -->
 
-**Query 1:**
+**Query 1:** -->  My natural hair has heat damage. What apporaches should be used to adjust my rotuine and care for my hair afterward?
 
 Top returned chunks:
--
--
--
+- [1] heat_damage_tips::7   similarity 0.628
+      doc     : HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE
+      section : TREATMENTS DISCUSSED BY THE COMMUNITY | PROTEIN TREATMENTS
+      source  : https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/
+      Bond-building products mentioned by commenters included Olaplex, Redken,
+      L'Oréal, and Curlsmith products. These recommendations are based on
+      individual community experiences and should not be treated as guaranteed
+      solutions for reversing heat damage. PROTEIN TREATMENTS Protein
+      treatments were recommended by some community members to improve the
+      strength and elasticity of damaged hair. Protein treatments should not
+      necessarily be used excessively. Too much protein can contribute to
+      stiffness, dryness, or breakage for some hair.
+
+  [2] heat_damage_tips::9   similarity 0.613
+      doc     : HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE
+      section : HEAT-PROTECTION PRACTICES
+      source  : https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/
+      Apply heat protectant evenly in sections rather than spraying it over
+      the entire head at once. Avoid flat-ironing hair at excessively high
+      temperatures. Reduce the frequency of heat styling. Avoid additional
+      heat while recovering from existing heat damage. Allow hair to dry
+      partially before blow-drying rather than applying high heat to soaking-
+      wet hair. Use lower or moderate heat settings when possible. Some
+      commenters recommended using multiple heat-protection products and
+      products rated for temperatures up to 450°F.
+
+  [3] heat_damage_tips::6   similarity 0.585
+      doc     : HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE
+      section : STYLING WHILE GROWING OUT DAMAGE | TREATMENTS DISCUSSED BY THE COMMUNITY
+      source  : https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/
+      Wigs with lower-tension construction Low-tension styles may be
+      preferable when the hair is already damaged or fragile. TREATMENTS
+      DISCUSSED BY THE COMMUNITY Community members suggested several types of
+      treatments for damaged hair: Bond-building treatments Protein treatments
+      Deep conditioning Hair masks Steam or heat-assisted deep conditioning
+      Bond-building products mentioned by commenters included Olaplex, Redken,
+      L'Oréal, and Curlsmith products.
+
+Relevance explanation: 
+- The retrieved chunks are highly relevant as all three come from the heat-damage discussion and directly address ways to care for hair after heat damage. Chunk 1 discusses bond-building and protein treatments for damaged hair, while also noting that these are based on individual community experiences. Chunk 2 focuses on reducing heat exposure, using heat protectant, and adjusting heat-styling practices. Chunk 3 provides additional approaches such as low-tension styles, deep conditioning, hair masks, and other treatments discussed by the community. Together, these chunks provide several approaches for adjusting a routine after experiencing heat damage.
+
+---
+
+**Query 2:** --> What practices help me retain length while maintaining healthy natural hair? 
+
+Top returned chunks:
+- [1] gym_maintenance::9   similarity 0.624
+      doc     : NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE
+      section : MAINTAINING HAIR BETWEEN WASHES | DIFFERENT APPROACHES TO WORKOUT HAIR | 1. LOW-MAINTENANCE APPROACH
+      source  : https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?
+      One commenter emphasized that natural hair does not need to look
+      perfectly styled at all times and that maintaining physical health
+      through exercise can be more important than keeping a hairstyle
+      perfectly intact. DIFFERENT APPROACHES TO WORKOUT HAIR The discussion
+      demonstrates several different approaches: 1. LOW-MAINTENANCE APPROACH *
+      Exercise normally without worrying about temporary frizz or shrinkage. *
+      Maintain the hairstyle for several weeks. * Use mousse or other products
+      when the style begins to look less polished.
+
+  [2] 4c_styling_maintenance::8   similarity 0.617
+      doc     : 4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE
+      section : PROTECTIVE & LOW-MANIPULATION STYLING | HEAT & LENGTH RETENTION
+      source  : https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/
+      Protective styles can reduce the need for frequent manipulation. Styles
+      should not create excessive tension on the scalp. Tight braids,
+      cornrows, ponytails, and extensions can contribute to hair breakage and
+      traction-related hair loss. If experiencing thinning or bald areas,
+      avoid tight hairstyles and styles involving added synthetic hair. HEAT &
+      LENGTH RETENTION Blow-drying does not necessarily require completely
+      straightening the hair; hair can be mostly dried while remaining in a
+      natural state.
+
+  [3] gym_maintenance::8   similarity 0.609
+      doc     : NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE
+      section : MAINTAINING HAIR BETWEEN WASHES | DIFFERENT APPROACHES TO WORKOUT HAIR
+      source  : https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?
+      * Retwist or rebraid sections when necessary. * Use low-manipulation
+      styles that can last through multiple workouts. * Accept some frizz and
+      shrinkage rather than repeatedly restyling the hair. One commenter
+      emphasized that natural hair does not need to look perfectly styled at
+      all times and that maintaining physical health through exercise can be
+      more important than keeping a hairstyle perfectly intact. DIFFERENT
+      APPROACHES TO WORKOUT HAIR The discussion demonstrates several different
+      approaches:
 
 Relevance explanation:
 
 ---
 
-**Query 2:**
+**Query 3:** --> How do hair care reccomendations differ between low-porosity and high-porosity hair, especially when it comes to products and styling? 
 
 Top returned chunks:
--
--
--
+- [1] lo_po_reddit::5   similarity 0.774
+      doc     : LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE
+      section : GENERAL APPROACH
+      source  : https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/
+      Hair-care routines should be adjusted based on individual hair
+      characteristics and how the hair responds to specific products and
+      ingredients. Low-porosity hair may benefit from a simpler routine with
+      lightweight products, controlled product usage, and regular cleansing.
+
+  [2] fine_hi_po::4   similarity 0.724
+      doc     : REDDIT USER — FINE, HIGH-POROSITY CURLY HAIR ROUTINE
+      section : GENERAL APPROACH
+      source  : https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/
+      Keep the routine simple and consistent. Be patient when determining what
+      works for fine, high-porosity hair. The user's overall approach is to
+      avoid product buildup while still providing enough moisture for high-
+      porosity hair.
+
+  [3] lo_po_reddit::3   similarity 0.693
+      doc     : LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE
+      section : STYLING ROUTINE | OBSERVED BENEFITS
+      source  : https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/
+      Limit the number of products layered onto the hair. Pay attention to the
+      amount of product being used rather than automatically applying multiple
+      products. Lightweight oils and products may be more appropriate for low-
+      porosity hair. Consider ingredients such as humectants when developing a
+      low-porosity routine. OBSERVED BENEFITS Adjusting the routine to account
+      for low porosity and protein sensitivity may result in: Softer-feeling
+      hair Increased volume Reduced frizz Less product buildup
 
 Relevance explanation:
-
----
-
-**Query 3:**
-
-Top returned chunks:
--
--
--
-
-Relevance explanation:
+- The retrieved chunks are relevant because the query asks for a comparison between low-porosity and high-porosity hair, and the results include information about both. Chunk 1 and Chunk 3 describe recommendations for low-porosity hair, including using lightweight products, limiting product buildup, and avoiding excessive layering. Chunk 2 provides recommendations for fine, high-porosity hair, including maintaining moisture while avoiding too much product buildup. Together, the retrieved chunks allow the system to compare how product and routine recommendations may differ based on porosity.
 
 ---
 

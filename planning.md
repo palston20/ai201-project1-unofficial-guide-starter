@@ -46,11 +46,11 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
      A review-heavy corpus warrants different chunking than a long FAQ.
       -->
 
-**Chunk size:** --> 250 tokens
+**Chunk size:** --> 500 tokens --> 250 tokens
 
-**Overlap:** --> 40 tokens
+**Overlap:** --> 75 tokens --> 40 tokens
 
-**Reasoning:** --> I initially planned to use 500 token chunks with a 75 token overlap. During implementation, the resulting chunks were too large and produced only 14 chunks across the 10 documents. Larger chunks also risk including unrelated information, which could make retrieval less precise for specific user questions. I therefore changed the strategy to 100 token chunks with a 20 token overlap. The smaller chunks should allow the retrieval system to identify more specific pieces of information while the overlap helps preserve context across chunk boundaries.
+**Reasoning:** --> I initially planned to use 500-token chunks with a 75-token overlap. During implementation, I found that the selected embedding model, all-MiniLM-L6-v2, has a 256-token input limit. With 500-token chunks, part of each chunk could therefore be excluded when generating embeddings, which could hurt retrieval for information appearing later in a chunk. I changed the strategy to 250-token chunks with a 40-token overlap so that the chunks fit within the model's input limit while still providing enough context for retrieval. The smaller chunks also allow more specific information to be matched to user questions.
 
 ---
 

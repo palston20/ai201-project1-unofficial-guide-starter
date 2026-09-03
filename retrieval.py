@@ -44,11 +44,15 @@ COLLECTION_NAME = "unofficial_guide"
 EVAL_QUESTIONS = [
     "What styling techniques, maintenance practices, and product recommendations "
     "are discussed for 4C natural hair?",
+
     "What practices can help me retain length while maintaining healthy natural hair?",
+
     "I work out several times a week and don't want to wash my natural hair after "
     "every workout. How can I maintain my hairstyle between workouts?",
+
     "My natural hair has heat damage. What approaches should be used to adjust my "
     "routine and care for my hair afterward?",
+    
     "How do hair-care recommendations differ between low-porosity and high-porosity "
     "hair, especially when it comes to products and styling?",
 ]
