@@ -59,7 +59,7 @@
 - I initially planned to use 500 token chunks with a 75 token overlap. During implementation, the resulting chunks were too large and produced only 14 chunks across the 10 documents. Larger chunks also risk including unrelated information, which could make retrieval less precise for specific user questions. I therefore changed the strategy to 100 token chunks with a 20 token overlap. The smaller chunks should allow the retrieval system to identify more specific pieces of information while the overlap helps preserve context across chunk boundaries.
 
 **Final chunk count:** 
-- 84 chunks
+- 81 chunks
 
 ---
 
@@ -100,7 +100,7 @@
      For at least 2 of the 3, explain why the returned chunks are relevant to the query.
      Results must be text — not screenshots. -->
 
-**Query 1:** -->  My natural hair has heat damage. What apporaches should be used to adjust my rotuine and care for my hair afterward?
+**Query 1:** -->  My natural hair has heat damage. What approaches should be used to adjust my rotuine and care for my hair afterward?
 
 Top returned chunks:
 - [1] heat_damage_tips::7   similarity 0.628
@@ -239,10 +239,11 @@ Relevance explanation:
      Do not just say "I told it to use the documents" — show the actual instruction or explain
      the mechanism. -->
 
-**System prompt grounding instruction:**
+**System prompt grounding instruction:** 
+The system prompt instructs the model to answer the user's question using only the retrieved context provided to it. If the retrieved context does not contain enough information to answer the question, the model is instructed to say that the guide does not contain the information rather than relying on outside knowledge. The prompt also instructs the model to cite the retrieved sources when providing information.
 
 **How source attribution is surfaced in the response:**
-
+The interface displays source citations alongside the generated answer using numbered references such as [1] and [2]. Below the answer, the system displays the source names, retrieved passages, similarity scores, and links to the original sources, allowing the user to see where the answer came from and inspect the supporting information.
 ---
 
 ## Example Responses
@@ -253,29 +254,66 @@ Relevance explanation:
 
 **Grounded response 1**
 
-Query:
+Query: I work out several times a week and don't want to wash my natural hair after every workout. How can I maintain my hairstyle between workouts?
 
-Response:
+Response: Answer
+Use low‑maintenance styles that tolerate sweat, such as braids, twists, mini‑braids, or a low‑manipulation ponytail/bun. These can be left in for several weeks and refreshed when needed [3][4].
+When the style starts to look frizzy, apply a hair refresher spray or a bit of mousse to revive the look without a full wash [1][2].
+Dry shampoo is another option some commenters use after a workout to absorb sweat and reduce frizz [1].
+If the style becomes difficult to manage, re‑braid or retwist the hair, or pull the existing twists into a new ponytail or bun [3][4].
+These approaches let you exercise several times a week while keeping your natural hair looking presentable between washes.
 
-Source attribution:
+Source attribution: Sources
+
+NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE
+Passages retrieved (5)
+[1] NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE — similarity 0.720 · cited
+
+MANAGING FRIZZ AFTER WORKOUTS | WASHING AND CLEANSING
+
+* Use a hair refresher spray after exercising.
+* Some commenters recommended dry shampoo as another post-workout option.
+
+The effectiveness of these methods may vary depending on the individual's hair type, hairstyle, and amount of sweating.
+
+WASHING AND CLEANSING
+
+The community has different opinions about how frequently natural hair should be washed when exercising.
+
+* Some people wash weekly or every two weeks.
+* Some wash more frequently when they sweat heavily.
 
 ---
 
 **Grounded response 2**
 
-Query:
+Query: How do I keep my twist-out from frizzing in humidity?
 
-Response:
+Response: Answer
+Use a strong‑hold gel or styling product designed for humidity protection to lock the twist‑out in place【1†L2-L4】【3†L2-L4】.
+Consider adding an anti‑humidity spray or serum on top of the gel for extra barrier against moisture【3†L2-L4】.
+Curl creams or custards that promise stronger hold can also be layered under the gel to boost definition【3†L2-L4】.
+Some commenters suggest that completely preventing frizz in very humid conditions may be unrealistic, so embracing a bit of natural shrinkage and frizz while focusing on hold is another approach【1†L1-L3】【5†L1-L4】.
 
-Source attribution:
+Source attribution: Sources
+
+HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE
+NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE
+Passages retrieved (5)
+[1] HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE — similarity 0.659 · cited
+
+HOW HUMIDITY AFFECTS NATURAL HAIR | STRONG-HOLD STYLING PRODUCTS
+
+Several commenters suggest that completely preventing frizz or shrinkage may not be realistic in highly humid environments.
+Some commenters recommend accepting or embracing shrinkage and frizz rather than trying to completely prevent them.
 
 ---
 
 **Out-of-scope query**
 
-Query:
+Query: Where can I watch the Odessey?
 
-System response (refusal):
+System response (refusal): I don't have anything in the guide that answers that. This guide only covers natural and curly hair care — styling, washing, porosity, protective styles, heat damage, humidity, and length retention — drawn from a fixed set of blogs and Reddit threads. 
 
 ---
 
@@ -284,9 +322,11 @@ System response (refusal):
 <!-- Describe your query interface: what are the input fields, what does the output look like?
      Then provide a complete sample interaction transcript showing a real exchange. -->
 
-**Input fields:**
+**Input fields:** 
+- There are two fields. The first field is where you can submit a question that's "suggested" by the model ( which uses the questions I put in the planning.md file). The other input field is a text box where the user can write any query they may have.
 
 **Output format:**
+- After clicking the "ASK" button, there is a section labeled "Answer" that will say it's generating an answer. After the answer is generated, it will give a list of relevant sources/passagfes, with citations. If you scroll to the bottom of the page, then you will see the actual sources and links that the model pulled from, so users can explore the link itself if they want to. "Below that, there is a section where the bot shows exactly which processed passages were used to generate the answer, along with a relevance score for each retrieved chunk."
 
 ---
 
@@ -295,9 +335,46 @@ System response (refusal):
 <!-- Show a complete query → response exchange as it actually appears in your interface.
      Must be text — not a screenshot. -->
 
-> **User:** 
+> **User:** What styling techniques, maintenance practices, and product recommendations are discussed for 4C natural hair?
 
-> **System:** 
+> **System:** Answer
+Styling techniques
+
+Low‑maintenance approach: keep the same style for several weeks and accept temporary frizz or shrinkage, using mousse or similar products when the look becomes less polished [1][5].
+Protective approach: wear braids or twists while exercising, securing the hair with a scarf, sweatband, or satin‑lined cap; re‑braid or retwist as needed [1][2].
+Low‑manipulation styles that can survive multiple workouts, with occasional retwisting or rebonding of sections [3].
+Maintenance practices
+
+Retwist or rebraid sections when necessary [3].
+Wash the hair after frequent workouts (frequent‑wash approach) or follow a schedule ranging from weekly to every two weeks depending on the style [1][4].
+Deep‑condition for added moisture, especially for thick 4C hair that benefits from moisture‑retention routines [4].
+Avoid keeping protective styles installed for excessively long periods to reduce breakage [2].
+Product recommendations
+
+Use mousse (or comparable styling products) when the style begins to look less polished [1][5].
+Shampoo and conditioner on wash days, with deep‑conditioning treatments as part of the routine [4].
+Sources
+
+NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE
+PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE
+4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE
+Passages retrieved (5) 
+[1] NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE — similarity 0.642 · cited
+
+LOW-MAINTENANCE APPROACH | 2. PROTECTIVE APPROACH | 3. FREQUENT-WASH APPROACH
+* Maintain the hairstyle for several weeks.
+* Use mousse or other products when the style begins to look less polished.
+
+2. PROTECTIVE APPROACH
+
+* Exercise while wearing braids or twists.
+* Secure the hair with a scarf, sweatband, or satin-lined cap.
+* Wash the hair while it remains in the style.
+* Rebraid or retwist when necessary.
+
+3. FREQUENT-WASH APPROACH
+
+* Wash the hair after frequent or daily workouts.
 
 ---
 
@@ -309,11 +386,13 @@ System response (refusal):
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | What styling techniques, maintenance practices, and product recommendations are discussed for 4C natural hair? | The system should retrieve the Reddit discussion about 4c hair and identify the products and techniques discussed by the user/community. The answer should make clear that these are personal/community recommendations, rather than universally proven rules.| Provides styling techniques, maintenance practices, and product recommendations, but pulls mainly from the Gym maintenance protective style articles. Only pulls some info from the 4c subreddit. |Relevant | Partially accurate |
+
+| 2 | What practices can help me retain length while maintaining healthy natural hair? | The system should retreieve information from the Black Curl Magic blog. It should discuss practices such as protective styling, reducing manipulation,and maintaining healthy hair practices. | Gives information about low manipulation/protective styles, maintaining moisture, and trimming ends, but pulls from the Gym maintenance and 4c maintenance. It does pull a good amount from the hair retention article though. | Relevant | Partially accurate |
+
+| 3 | I work out several times a week and don't want to wash my natural hair after every workout. How can I maintain my hairstyle between workouts?| The system should retrieve from the workout Reddit discussion and explain strategies users shared for maintaining hair between workouts. It should discuss how to protect the hair during exercise, managing sweat, and refreshing the hairstyle. | Pulls only from gym maintenance about how to keep a hairstyle for longer as well as how to adjust your hair care and washing routine to continue exercising. | Relevant |Accurate |
+| 4 | My natural hair has heat damage. What approaches should be used to adjust my routine and care for my hair afterward?| The system should retrieve from the heat damage Reddit discussion and summarize the approaches and experiences shared by users. It should avoid using the indivudal experiences as guaranteed treatments.| Pulls majority information from the Heat and Curl Damage subreddit, with it being the number 1 source. Gives tips like adding heat protection into your routine, using restorative products, and trimming ends.| Relevant | Accurate |
+| 5 | How do hair-care recommendations differ between low-porosity and high-porosity hair, especially when it comes to products and styling?  The system should retrieve information from both the low-porosity and high-porosity sources and compare the product and styling recommendations discussed in each. The response should explain differences in how the sources describe caring for low- and high-porosity hair and should distinguish personal experiences from universally established facts.| The system has two chunks talking about low porosity and high porosity hair and only sources the subreddits that are about high and low porosity hair. Beautifully accurate.| Relevant | Accurate|
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -333,14 +412,17 @@ System response (refusal):
      "The embedding model treated the professor's nickname as out-of-vocabulary and returned
      results from an unrelated review" is an explanation. -->
 
-**Question that failed:**
+**Question that failed:**  
+What styling techniques, maintenance practices, and product recommendations are discussed for 4C natural hair? 
 
 **What the system returned:**
+The system returned some relevant information about natural hair styling and maintenance, but the most directly relevant 4C-specific information was not included in the initial top 3 retrieved chunks. The correct 4C source ranked fourth in similarity, while more general natural-hair content ranked higher.
 
 **Root cause (tied to a specific pipeline stage):**
+The issue occurred during the retrieval stage. The embedding-based similarity search ranked some more general hair-maintenance chunks above the 4C-specific chunk because they contained overlapping terms related to styling, maintenance, and products. As a result, the most specific source was initially excluded when using a top-k value of 3.
 
 **What you would change to fix it:**
-
+I increased the retrieval top-k from 3 to 5 so that relevant chunks ranked slightly lower are still included in the retrieved context. I could also improve the document/chunk metadata or retrieval strategy to give the system more information about the specific topic of each chunk. I would not rely primarily on changing the system prompt because this issue occurs before generation, during retrieval.
 ---
 
 ## Spec Reflection
@@ -349,8 +431,10 @@ System response (refusal):
      Answer both questions with at least 2–3 sentences each. -->
 
 **One way the spec helped you during implementation:**
+The spec gave me a clear idea of how I was going to implement each stage, regardless if I knew how to code it or not. If soemthing went wrong, I could go back to my specs and see if I implemented soemthing wrong in the initial planning stage or an issue from the code. For example, when my initial chunking strategy produced chunks that were too large, I was able to recognize that the issue was with my planned chunk size rather than the overall pipeline. Similarly, testing the Groq and OpenAI implementations helped me identify a discrepancy in how the two systems were handling the pipeline.
 
 **One way your implementation diverged from the spec, and why:**
+I had to diverge a lot when I was initally planning the chunk size, overlap, and top-k size. I had to constantly play with the settings so that my chunk sizes were not too large or small, but still fit within the limits of the vector embedding. I changed the chunking strategy to 100-token chunks with a 20-token overlap and increased top-k to 5 based on these results. This iterative process made it easier to debug the system and identify exactly where revisions were needed.
 
 ---
 
@@ -367,12 +451,16 @@ System response (refusal):
 
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* Use the planning.md and pipeline diagram to generate the generation and interface code. The prompt should include: the grounding requirement (answers from retrieved context only, with source attribution), the output format (answer + source list), and the streamlit skeleton structure if you're using it. Wire it all together.
+
+- *What it produced:* The AI produced the Streamlit interface and connected it to my RAG pipeline. It also helped ensure that the generation portion worked with the model I was using, since I used a different model from the one in the original repository.
+
+- *What I changed or overrode:* I customized the Streamlit UI to better match the appearance and style I envisioned. I also tested the application myself rather than assuming the generated code was working correctly.
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* I gave the AI my planned chunking strategy from planning.md and asked it to implement the document chunking portion of the pipeline using a target chunk size and overlap.
+
+- *What it produced:* The AI initially implemented a chunking approach based on my original plan of 500-token chunks with a 75-token overlap. When I tested it, the resulting chunks were too large and the pipeline produced only 14 chunks across my 10 documents.
+
+- *What I changed or overrode:* I changed the chunking strategy to 100-token chunks with a 20-token overlap after testing the initial implementation. I also directed the AI to make the chunking more content-aware so that chunks would preferably end at sentence or paragraph boundaries instead of cutting off in the middle of a sentence. I then inspected random chunks myself to make sure the results were readable and useful for retrieval.

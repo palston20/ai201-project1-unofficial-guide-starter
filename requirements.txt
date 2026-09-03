@@ -1,11 +1,15 @@
 sentence-transformers==3.4.1
 chromadb>=0.6.0
-groq==0.15.0
 python-dotenv==1.0.1
+
+# Generation: gpt-oss-120b is called through the Hugging Face Inference
+# Providers router, which is a plain OpenAI-format HTTP endpoint.
+httpx>=0.27.0
+# groq==0.15.0  # unused — the starter's default provider, not the one we use
 
 # Query interface — add whichever you use for Milestone 5:
 # gradio>=6.9.0
-# streamlit>=1.40.0
+streamlit>=1.40.0
 
 # Document ingestion — add if your documents/ folder contains .pdf files:
 # pdfplumber==0.11.4
