@@ -64,7 +64,7 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
 **Embedding model:**
 --> all-MiniLM-L6-v2 via sentence-transformers
 **Top-k:**
---> 3 chunks 
+--> I initially planned to retrieve the top 3 most similar chunks. During evaluation, 3 of the 5 questions retrieved the most relevant information within the top 3 results. However, the correct chunks for the 4C hair and length-retention questions ranked fourth in both cases. I increased top-k to 5 so that these relevant chunks are included in the retrieved context. This change improves recall while keeping the number of retrieved chunks small enough to avoid adding excessive unrelated information.
 **Production tradeoff reflection:**
 --> If this system were deployed for real users, I would consider a more advanced embedding model if it provided better retrieval accuracy for domain-specific hair-care terminology. I would also consider context length, multilingual support, and latency. A more accurate model may improve retrieval quality, but it could also require more computational resources and increase response time.
 ---
