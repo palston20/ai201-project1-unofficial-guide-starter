@@ -64,11 +64,11 @@
 
 | # | Source document | Chunk text |
 |---|----------------|------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | fine_hi_po.txt| Fine, high-porosity curly hair. Cleansing conditioner may be too heavy for fine hair. Consider using a clarifying shampoo or low-poo shampoo instead. Less product may be more effective for fine hair. High-porosity hair can benefit from heavier creams and oils, but using too many moisturizing products at once may be unnecessary. When hair is very dry, use one moisturizing hair mask rather than layering multiple heavy products. |
+| 2 | 4c_styling_maintenance.txt | Work from the ends toward the roots to help minimize unnecessary pulling and breakage. Sectioning the hair before and during detangling can make the process easier. Leave-in conditioner can be added after washing and conditioning when additional moisture is needed. Moisturizing products such as creams, butters, and oils can be used depending on the hair's needs. Products mentioned as examples include Camille Rose Curl Maker, Camille Rose Honey, and As I Am Curl products. |
+| 3 | hair_density.txt | At home, density can be estimated by measuring the circumference of a dry ponytail. Suggested ponytail measurements: High density: greater than 4 inches; Medium density: 2–3 inches; Low density: less than 2 inches. For hair that is too short to measure in a ponytail, scalp visibility and the width of the part can provide an indication of density. Hair density can influence how much volume or fullness a person naturally has. |
+| 4 | gym_maintenance.txt | Tie the hair down during workouts. Allow the hair to dry before removing the scarf or wrap. Use refresher products, mousse, or edge control to manage frizz afterward. |
+| 5 |gym_maintenance.txt| One commenter emphasized that natural hair does not need to look perfectly styled at all times and that maintaining physical health through exercise can be more important than keeping a hairstyle perfectly intact. The discussion demonstrates several different approaches, including exercising normally without worrying about temporary frizz or shrinkage, maintaining the hairstyle for several weeks, and using mousse or other products when the style begins to look less polished. |
 
 ---
 

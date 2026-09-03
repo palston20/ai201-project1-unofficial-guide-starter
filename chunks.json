@@ -1,0 +1,1388 @@
+{
+  "config": {
+    "chunk_size_tokens": 100,
+    "overlap_tokens": 20,
+    "tokenizer": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "chunk_count": 81,
+  "chunks": [
+    {
+      "chunk_id": "4c_styling_maintenance::0",
+      "text": "HAIR TYPE\n\n Thick, 4C hair may benefit from routines focused on moisture retention, gentle manipulation, and minimizing breakage. Hair-care routines should be adjusted based on individual hair characteristics because not all 4C hair responds the same way.\n\nWASHING & CONDITIONING\n\n Wash hair regularly; recommendations in the discussion range from weekly to every two weeks depending on the hairstyle and individual needs. Use shampoo and conditioner during wash days. Deep conditioning can be incorporated into the routine for additional moisture.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "HAIR TYPE",
+        "sections": "HAIR TYPE | WASHING & CONDITIONING",
+        "chunk_index": 0,
+        "chunk_count": 14,
+        "token_count": 98,
+        "start_char": 0,
+        "end_char": 548
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::1",
+      "text": "Use shampoo and conditioner during wash days. Deep conditioning can be incorporated into the routine for additional moisture. Divide hair into approximately four sections when washing to make the process more manageable. Deep conditioning can be done with heat to help support conditioning. If a hooded dryer is unavailable, alternatives include wrapping the hair with a warm, damp towel or using a bonnet attachment for a blow dryer.\n\nDETANGLING\n\n Detangle while washing and deep conditioning when the hair is wet and conditioned.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "WASHING & CONDITIONING",
+        "sections": "WASHING & CONDITIONING | DETANGLING",
+        "chunk_index": 1,
+        "chunk_count": 14,
+        "token_count": 99,
+        "start_char": 423,
+        "end_char": 954
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::2",
+      "text": "If a hooded dryer is unavailable, alternatives include wrapping the hair with a warm, damp towel or using a bonnet attachment for a blow dryer.\n\nDETANGLING\n\n Detangle while washing and deep conditioning when the hair is wet and conditioned. Use a wide-tooth comb. Work from the ends toward the roots to help minimize unnecessary pulling and breakage. Sectioning the hair before and during detangling can make the process easier.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "WASHING & CONDITIONING",
+        "sections": "WASHING & CONDITIONING | DETANGLING",
+        "chunk_index": 2,
+        "chunk_count": 14,
+        "token_count": 88,
+        "start_char": 714,
+        "end_char": 1142
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::3",
+      "text": "Work from the ends toward the roots to help minimize unnecessary pulling and breakage. Sectioning the hair before and during detangling can make the process easier.\n\nMOISTURE & PRODUCTS\n\n Leave-in conditioner can be added after washing and conditioning when additional moisture is needed. Moisturizing products such as creams, butters, and oils can be used depending on the hair's needs.\n\n Products mentioned as examples include:\n\n  * Camille Rose Curl Maker\n  * Camille Rose Honey\n  * As I Am Curl products",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "DETANGLING",
+        "sections": "DETANGLING | MOISTURE & PRODUCTS",
+        "chunk_index": 3,
+        "chunk_count": 14,
+        "token_count": 99,
+        "start_char": 978,
+        "end_char": 1485
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::4",
+      "text": "Products mentioned as examples include:\n\n  * Camille Rose Curl Maker\n  * Camille Rose Honey\n  * As I Am Curl products\n  * As I Am Double Butter\n  * Doo Gro\n  * Wild Growth Hair Oil\n  * Design Essentials\n  * Miracle Moist products\n Heavy creams, butters, and oils may be useful for dry or coarse hair, but product selection should depend on individual hair response. Research brands and ingredients before purchasing products. Black-owned or Black-founded brands may be considered when selecting products designed for textured hair.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "MOISTURE & PRODUCTS",
+        "sections": "MOISTURE & PRODUCTS",
+        "chunk_index": 4,
+        "chunk_count": 14,
+        "token_count": 100,
+        "start_char": 1368,
+        "end_char": 1899
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::5",
+      "text": "Black-owned or Black-founded brands may be considered when selecting products designed for textured hair.\n\nSTYLING\n\nTwo-strand twists are recommended as a simple natural style that does not require advanced braiding skills. Small sections can be twisted individually to create approximately 20–30 twists. Twists can be worn as a hairstyle or unraveled later to create a fuller twist-out. Finger-curling the ends and applying sufficient product to the ends can help finish twists.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "MOISTURE & PRODUCTS",
+        "sections": "MOISTURE & PRODUCTS | STYLING",
+        "chunk_index": 5,
+        "chunk_count": 14,
+        "token_count": 93,
+        "start_char": 1794,
+        "end_char": 2273
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::6",
+      "text": "Twists can be worn as a hairstyle or unraveled later to create a fuller twist-out. Finger-curling the ends and applying sufficient product to the ends can help finish twists. Low-manipulation styles such as twists and braids can help reduce daily handling. Sleek buns, twists, and braids can be styled using cream and oil followed by gel for additional hold. Avoid making styles excessively tight.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "STYLING",
+        "sections": "STYLING",
+        "chunk_index": 6,
+        "chunk_count": 14,
+        "token_count": 84,
+        "start_char": 2099,
+        "end_char": 2496
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::7",
+      "text": "Sleek buns, twists, and braids can be styled using cream and oil followed by gel for additional hold. Avoid making styles excessively tight.\n\nPROTECTIVE & LOW-MANIPULATION STYLING\n\n Two-strand twists and braids without added hair are suggested as simple low-manipulation styles. Protective styles can reduce the need for frequent manipulation. Styles should not create excessive tension on the scalp.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "STYLING",
+        "sections": "STYLING | PROTECTIVE & LOW-MANIPULATION STYLING",
+        "chunk_index": 7,
+        "chunk_count": 14,
+        "token_count": 75,
+        "start_char": 2356,
+        "end_char": 2756
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::8",
+      "text": "Protective styles can reduce the need for frequent manipulation. Styles should not create excessive tension on the scalp. Tight braids, cornrows, ponytails, and extensions can contribute to hair breakage and traction-related hair loss. If experiencing thinning or bald areas, avoid tight hairstyles and styles involving added synthetic hair.\n\nHEAT & LENGTH RETENTION\n\n Blow-drying does not necessarily require completely straightening the hair; hair can be mostly dried while remaining in a natural state.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "PROTECTIVE & LOW-MANIPULATION STYLING",
+        "sections": "PROTECTIVE & LOW-MANIPULATION STYLING | HEAT & LENGTH RETENTION",
+        "chunk_index": 8,
+        "chunk_count": 14,
+        "token_count": 94,
+        "start_char": 2635,
+        "end_char": 3140
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::9",
+      "text": "Blow-drying does not necessarily require completely straightening the hair; hair can be mostly dried while remaining in a natural state. Heat protectant should be used before blow-drying. Blow-drying can be used to stretch the hair when desired. Excessive heat and repeated straightening can contribute to damaged ends. Damaged ends may need to be trimmed to prevent continued breakage.\n\nTRIMS & LENGTH RETENTION\n\nRegular trims can help manage damaged or split ends.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "HEAT & LENGTH RETENTION",
+        "sections": "HEAT & LENGTH RETENTION | TRIMS & LENGTH RETENTION",
+        "chunk_index": 9,
+        "chunk_count": 14,
+        "token_count": 88,
+        "start_char": 3004,
+        "end_char": 3470
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::10",
+      "text": "Damaged ends may need to be trimmed to prevent continued breakage.\n\nTRIMS & LENGTH RETENTION\n\nRegular trims can help manage damaged or split ends. Trimming damaged ends does not mean the hair cannot remain long; reducing breakage can support length retention. One recommendation in the discussion is getting trims approximately every three months.\n\nNIGHTTIME & SLEEP CARE\n\nUse a silk or satin bonnet at night.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "HEAT & LENGTH RETENTION",
+        "sections": "HEAT & LENGTH RETENTION | TRIMS & LENGTH RETENTION | NIGHTTIME & SLEEP CARE",
+        "chunk_index": 10,
+        "chunk_count": 14,
+        "token_count": 77,
+        "start_char": 3324,
+        "end_char": 3733
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::11",
+      "text": "One recommendation in the discussion is getting trims approximately every three months.\n\nNIGHTTIME & SLEEP CARE\n\nUse a silk or satin bonnet at night. A silk or satin pillowcase can be used as an alternative or additional protection.Cotton pillowcases and bonnets may contribute to dryness and friction. Nighttime protection can help reduce friction and preserve hairstyles.\n\nHAIR MAINTENANCE\n\nAvoid excessive daily manipulation. Avoid wetting the hair every day unless the routine involves restyling and moisturizing the hair.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "TRIMS & LENGTH RETENTION",
+        "sections": "TRIMS & LENGTH RETENTION | NIGHTTIME & SLEEP CARE | HAIR MAINTENANCE",
+        "chunk_index": 11,
+        "chunk_count": 14,
+        "token_count": 98,
+        "start_char": 3584,
+        "end_char": 4110
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::12",
+      "text": "Avoid wetting the hair every day unless the routine involves restyling and moisturizing the hair. Establishing a consistent wash and maintenance schedule can make natural-hair care easier. Low-maintenance styles can help reduce the amount of daily manipulation. A consistent routine may include washing, moisturizing, styling, and protecting the hair at night.\n\nNUTRITION & HAIR HEALTH\nA balanced diet containing fruits, vegetables, nuts, seeds, and adequate protein can support overall hair health.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "HAIR MAINTENANCE",
+        "sections": "HAIR MAINTENANCE | NUTRITION & HAIR HEALTH",
+        "chunk_index": 12,
+        "chunk_count": 14,
+        "token_count": 94,
+        "start_char": 4013,
+        "end_char": 4512
+      }
+    },
+    {
+      "chunk_id": "4c_styling_maintenance::13",
+      "text": "A balanced diet containing fruits, vegetables, nuts, seeds, and adequate protein can support overall hair health. Adequate water intake is also recommended Nutritional deficiencies may affect hair health, so persistent hair concerns may warrant professional evaluation rather than relying solely on supplements.",
+      "metadata": {
+        "doc_id": "4c_styling_maintenance",
+        "title": "4C NATURAL HAIR — PRODUCTS, STYLING, AND MAINTENANCE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1fgbtrv/styling_tips_4c_hair_i_hate_it/",
+        "source_file": "processed_data/4c_styling_maintenance.txt",
+        "section": "NUTRITION & HAIR HEALTH",
+        "sections": "NUTRITION & HAIR HEALTH",
+        "chunk_index": 13,
+        "chunk_count": 14,
+        "token_count": 50,
+        "start_char": 4399,
+        "end_char": 4710
+      }
+    },
+    {
+      "chunk_id": "fine_hi_po::0",
+      "text": "HAIR TYPE\nFine, high-porosity curly hair.\n\nCLEANSING\nCleansing conditioner may be too heavy for fine hair.\nConsider using a clarifying shampoo or low-poo shampoo instead.\nLess product may be more effective for fine hair.\n\nMOISTURE\nHigh-porosity hair can benefit from heavier creams and oils, but using too many moisturizing products at once may be unnecessary.\nWhen hair is very dry, use one moisturizing hair mask rather than layering multiple heavy products.",
+      "metadata": {
+        "doc_id": "fine_hi_po",
+        "title": "REDDIT USER — FINE, HIGH-POROSITY CURLY HAIR ROUTINE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/",
+        "source_file": "processed_data/fine_hi_po.txt",
+        "section": "HAIR TYPE",
+        "sections": "HAIR TYPE | CLEANSING | MOISTURE",
+        "chunk_index": 0,
+        "chunk_count": 5,
+        "token_count": 99,
+        "start_char": 0,
+        "end_char": 460
+      }
+    },
+    {
+      "chunk_id": "fine_hi_po::1",
+      "text": "When hair is very dry, use one moisturizing hair mask rather than layering multiple heavy products.\nOn less-dry wash days, a rinse-out conditioner followed by a small amount of leave-in conditioner may be sufficient.\nPOST-WASH STYLING\n\nA “one-and-done” approach to styling products has worked better for the user than layering 2–3 products.\nFor dryness: use a small amount of leave-in conditioner.",
+      "metadata": {
+        "doc_id": "fine_hi_po",
+        "title": "REDDIT USER — FINE, HIGH-POROSITY CURLY HAIR ROUTINE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/",
+        "source_file": "processed_data/fine_hi_po.txt",
+        "section": "MOISTURE",
+        "sections": "MOISTURE | POST-WASH STYLING",
+        "chunk_index": 1,
+        "chunk_count": 5,
+        "token_count": 95,
+        "start_char": 361,
+        "end_char": 758
+      }
+    },
+    {
+      "chunk_id": "fine_hi_po::2",
+      "text": "A “one-and-done” approach to styling products has worked better for the user than layering 2–3 products.\nFor dryness: use a small amount of leave-in conditioner.\nFor volume or definition: use either mousse OR curl cream, depending on the desired result.\nAvoid automatically using multiple styling products simply because they are common in curly-hair routines.\n\nOIL\nUse only a drop or two of oil on the ends of the hair.",
+      "metadata": {
+        "doc_id": "fine_hi_po",
+        "title": "REDDIT USER — FINE, HIGH-POROSITY CURLY HAIR ROUTINE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/",
+        "source_file": "processed_data/fine_hi_po.txt",
+        "section": "POST-WASH STYLING",
+        "sections": "POST-WASH STYLING | OIL",
+        "chunk_index": 2,
+        "chunk_count": 5,
+        "token_count": 94,
+        "start_char": 597,
+        "end_char": 1017
+      }
+    },
+    {
+      "chunk_id": "fine_hi_po::3",
+      "text": "Avoid automatically using multiple styling products simply because they are common in curly-hair routines.\n\nOIL\nUse only a drop or two of oil on the ends of the hair.\nApply oil only when the hair is completely dry.\nThe user reports that this helps keep their ends shiny and healthy.\n\nGENERAL APPROACH\nUse a light hand when applying products.\nKeep the routine simple and consistent.\nBe patient when determining what works for fine, high-porosity hair.",
+      "metadata": {
+        "doc_id": "fine_hi_po",
+        "title": "REDDIT USER — FINE, HIGH-POROSITY CURLY HAIR ROUTINE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/",
+        "source_file": "processed_data/fine_hi_po.txt",
+        "section": "POST-WASH STYLING",
+        "sections": "POST-WASH STYLING | OIL | GENERAL APPROACH",
+        "chunk_index": 3,
+        "chunk_count": 5,
+        "token_count": 88,
+        "start_char": 851,
+        "end_char": 1301
+      }
+    },
+    {
+      "chunk_id": "fine_hi_po::4",
+      "text": "Keep the routine simple and consistent.\nBe patient when determining what works for fine, high-porosity hair.\nThe user's overall approach is to avoid product buildup while still providing enough moisture for high-porosity hair.",
+      "metadata": {
+        "doc_id": "fine_hi_po",
+        "title": "REDDIT USER — FINE, HIGH-POROSITY CURLY HAIR ROUTINE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/1loteew/how_do_i_keep_my_fine_dense_high_porosity_curls/",
+        "source_file": "processed_data/fine_hi_po.txt",
+        "section": "GENERAL APPROACH",
+        "sections": "GENERAL APPROACH",
+        "chunk_index": 4,
+        "chunk_count": 5,
+        "token_count": 46,
+        "start_char": 1193,
+        "end_char": 1419
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::0",
+      "text": "TOPIC\nMaintaining natural hair while exercising, managing sweat and frizz, preserving hairstyles, and balancing workout frequency with hair maintenance\n\n\nMANAGING SWEAT AND WORKOUT FREQUENCY\n\n* Regular exercise can cause sweat to accumulate on the scalp and hair.\n* Some community members continue exercising normally and accept that their hair may become frizzy or less polished.\n* One commenter who works out 2–5 times per week washes their hair weekly or every two weeks while wearing braids or twists.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "TOPIC",
+        "sections": "TOPIC | MANAGING SWEAT AND WORKOUT FREQUENCY",
+        "chunk_index": 0,
+        "chunk_count": 13,
+        "token_count": 95,
+        "start_char": 0,
+        "end_char": 505
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::1",
+      "text": "* One commenter who works out 2–5 times per week washes their hair weekly or every two weeks while wearing braids or twists.\n* Another commenter prefers washing their hair daily after exercising because they dislike having sweat remain in their hair.\n* These responses demonstrate that washing frequency varies based on exercise frequency, sweat levels, hairstyle, and personal preference.\n\nPRESERVING HAIRSTYLES DURING WORKOUTS\n\nSeveral commenters recommend using styles that can tolerate frequent exercise and sweat.\n\nSuggested approaches include:",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "MANAGING SWEAT AND WORKOUT FREQUENCY",
+        "sections": "MANAGING SWEAT AND WORKOUT FREQUENCY | PRESERVING HAIRSTYLES DURING WORKOUTS",
+        "chunk_index": 1,
+        "chunk_count": 13,
+        "token_count": 98,
+        "start_char": 381,
+        "end_char": 930
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::2",
+      "text": "PRESERVING HAIRSTYLES DURING WORKOUTS\n\nSeveral commenters recommend using styles that can tolerate frequent exercise and sweat.\n\nSuggested approaches include:\n\n* Wearing braids or twists while exercising.\n* Using low-manipulation hairstyles.\n* Pulling twists or braids into a ponytail or bun.\n* Wearing mini braids and securing the ends.\n* Rebraiding or retwisting the hair when the style begins to become difficult to maintain.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "PRESERVING HAIRSTYLES DURING WORKOUTS",
+        "sections": "PRESERVING HAIRSTYLES DURING WORKOUTS",
+        "chunk_index": 2,
+        "chunk_count": 13,
+        "token_count": 88,
+        "start_char": 772,
+        "end_char": 1200
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::3",
+      "text": "* Rebraiding or retwisting the hair when the style begins to become difficult to maintain.\n* Using a scarf, sweatband, or satin-lined cap during workouts.\n\nOne commenter noted that wearing a satin-lined cap can help preserve the hairstyle but may also increase sweating.\n\nMANAGING FRIZZ AFTER WORKOUTS\n\nCommunity members suggested several ways to manage frizz caused by sweating:\n\n* Use mousse to help control frizz.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "PRESERVING HAIRSTYLES DURING WORKOUTS",
+        "sections": "PRESERVING HAIRSTYLES DURING WORKOUTS | MANAGING FRIZZ AFTER WORKOUTS",
+        "chunk_index": 3,
+        "chunk_count": 13,
+        "token_count": 96,
+        "start_char": 1110,
+        "end_char": 1526
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::4",
+      "text": "Community members suggested several ways to manage frizz caused by sweating:\n\n* Use mousse to help control frizz.\n* Use edge control to smooth edges and flyaways.\n* Tie the hair down with a scarf during or after a workout.\n* Allow the hair and scalp to dry before removing a scarf or wrap.\n* Use a hair refresher spray after exercising.\n* Some commenters recommended dry shampoo as another post-workout option.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "MANAGING FRIZZ AFTER WORKOUTS",
+        "sections": "MANAGING FRIZZ AFTER WORKOUTS",
+        "chunk_index": 4,
+        "chunk_count": 13,
+        "token_count": 93,
+        "start_char": 1413,
+        "end_char": 1823
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::5",
+      "text": "* Use a hair refresher spray after exercising.\n* Some commenters recommended dry shampoo as another post-workout option.\n\nThe effectiveness of these methods may vary depending on the individual's hair type, hairstyle, and amount of sweating.\n\nWASHING AND CLEANSING\n\nThe community has different opinions about how frequently natural hair should be washed when exercising.\n\n* Some people wash weekly or every two weeks.\n* Some wash more frequently when they sweat heavily.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "MANAGING FRIZZ AFTER WORKOUTS",
+        "sections": "MANAGING FRIZZ AFTER WORKOUTS | WASHING AND CLEANSING",
+        "chunk_index": 5,
+        "chunk_count": 13,
+        "token_count": 89,
+        "start_char": 1703,
+        "end_char": 2173
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::6",
+      "text": "* Some people wash weekly or every two weeks.\n* Some wash more frequently when they sweat heavily.\n* At least one commenter washes their hair daily after workouts.\n* Washing while wearing braids or twists was suggested as a way to maintain a style while still cleansing the hair.\n* There is no single washing schedule recommended by the community; individual routines depend on sweat, scalp preferences, hairstyle, and lifestyle.\n\nMAINTAINING HAIR BETWEEN WASHES\n\nCommunity members described several maintenance strategies between washes:",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "WASHING AND CLEANSING",
+        "sections": "WASHING AND CLEANSING | MAINTAINING HAIR BETWEEN WASHES",
+        "chunk_index": 6,
+        "chunk_count": 13,
+        "token_count": 100,
+        "start_char": 2075,
+        "end_char": 2613
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::7",
+      "text": "* There is no single washing schedule recommended by the community; individual routines depend on sweat, scalp preferences, hairstyle, and lifestyle.\n\nMAINTAINING HAIR BETWEEN WASHES\n\nCommunity members described several maintenance strategies between washes:\n\n* Use mousse to refresh frizz.\n* Tie the hair down at night.\n* Use a scarf or bonnet while sleeping.\n* Retwist or rebraid sections when necessary.\n* Use low-manipulation styles that can last through multiple workouts.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "WASHING AND CLEANSING",
+        "sections": "WASHING AND CLEANSING | MAINTAINING HAIR BETWEEN WASHES",
+        "chunk_index": 7,
+        "chunk_count": 13,
+        "token_count": 98,
+        "start_char": 2355,
+        "end_char": 2832
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::8",
+      "text": "* Retwist or rebraid sections when necessary.\n* Use low-manipulation styles that can last through multiple workouts.\n* Accept some frizz and shrinkage rather than repeatedly restyling the hair.\n\nOne commenter emphasized that natural hair does not need to look perfectly styled at all times and that maintaining physical health through exercise can be more important than keeping a hairstyle perfectly intact.\n\nDIFFERENT APPROACHES TO WORKOUT HAIR\n\nThe discussion demonstrates several different approaches:",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "MAINTAINING HAIR BETWEEN WASHES",
+        "sections": "MAINTAINING HAIR BETWEEN WASHES | DIFFERENT APPROACHES TO WORKOUT HAIR",
+        "chunk_index": 8,
+        "chunk_count": 13,
+        "token_count": 93,
+        "start_char": 2716,
+        "end_char": 3221
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::9",
+      "text": "One commenter emphasized that natural hair does not need to look perfectly styled at all times and that maintaining physical health through exercise can be more important than keeping a hairstyle perfectly intact.\n\nDIFFERENT APPROACHES TO WORKOUT HAIR\n\nThe discussion demonstrates several different approaches:\n\n1. LOW-MAINTENANCE APPROACH\n\n* Exercise normally without worrying about temporary frizz or shrinkage.\n* Maintain the hairstyle for several weeks.\n* Use mousse or other products when the style begins to look less polished.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "MAINTAINING HAIR BETWEEN WASHES",
+        "sections": "MAINTAINING HAIR BETWEEN WASHES | DIFFERENT APPROACHES TO WORKOUT HAIR | 1. LOW-MAINTENANCE APPROACH",
+        "chunk_index": 9,
+        "chunk_count": 13,
+        "token_count": 94,
+        "start_char": 2911,
+        "end_char": 3444
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::10",
+      "text": "* Maintain the hairstyle for several weeks.\n* Use mousse or other products when the style begins to look less polished.\n\n2. PROTECTIVE APPROACH\n\n* Exercise while wearing braids or twists.\n* Secure the hair with a scarf, sweatband, or satin-lined cap.\n* Wash the hair while it remains in the style.\n* Rebraid or retwist when necessary.\n\n3. FREQUENT-WASH APPROACH\n\n* Wash the hair after frequent or daily workouts.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "1. LOW-MAINTENANCE APPROACH",
+        "sections": "1. LOW-MAINTENANCE APPROACH | 2. PROTECTIVE APPROACH | 3. FREQUENT-WASH APPROACH",
+        "chunk_index": 10,
+        "chunk_count": 13,
+        "token_count": 96,
+        "start_char": 3325,
+        "end_char": 3737
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::11",
+      "text": "* Rebraid or retwist when necessary.\n\n3. FREQUENT-WASH APPROACH\n\n* Wash the hair after frequent or daily workouts.\n* Prioritize removing sweat from the hair and scalp.\n* Accept that the hairstyle may need to be restyled more frequently.\n\n4. STYLE-PRESERVATION APPROACH\n\n* Tie the hair down during workouts.\n* Allow the hair to dry before removing the scarf or wrap.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "2. PROTECTIVE APPROACH",
+        "sections": "2. PROTECTIVE APPROACH | 3. FREQUENT-WASH APPROACH | 4. STYLE-PRESERVATION APPROACH",
+        "chunk_index": 11,
+        "chunk_count": 13,
+        "token_count": 85,
+        "start_char": 3623,
+        "end_char": 3988
+      }
+    },
+    {
+      "chunk_id": "gym_maintenance::12",
+      "text": "* Tie the hair down during workouts.\n* Allow the hair to dry before removing the scarf or wrap.\n* Use refresher products, mousse, or edge control to manage frizz afterward.",
+      "metadata": {
+        "doc_id": "gym_maintenance",
+        "title": "NATURAL HAIR AND WORKOUT MAINTENANCE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1u602mn/for_those_of_you_thay_are_active_with_natural_hair/?",
+        "source_file": "processed_data/gym_maintenance.txt",
+        "section": "4. STYLE-PRESERVATION APPROACH",
+        "sections": "4. STYLE-PRESERVATION APPROACH",
+        "chunk_index": 12,
+        "chunk_count": 13,
+        "token_count": 43,
+        "start_char": 3893,
+        "end_char": 4065
+      }
+    },
+    {
+      "chunk_id": "hair_density::0",
+      "text": "OVERVIEW\nHair density refers to the number of individual hair strands on the scalp.\nHair density is generally categorized as low, medium, or high.\nUnderstanding hair density can help determine which products and styling techniques may best support goals such as increasing or reducing volume.\n\nTYPES OF HAIR DENSITY\nHIGH DENSITY\nThe scalp is generally difficult to see through the hair.\nHair may feel heavier or fuller.\nStronger hair ties may be needed for ponytails.\nVolume and fullness are generally not difficult to achieve.",
+      "metadata": {
+        "doc_id": "hair_density",
+        "title": "CURLSMITH — HAIR DENSITY AND CURLY-HAIR CARE",
+        "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care&ved=2ahUKEwjZheyqpM6WAxVtF2IAHQ5lDOgQFnoECCIQAQ&usg=AOvVaw2T-IvmjFyaSc_QZzOmjSVC",
+        "source_file": "processed_data/hair_density.txt",
+        "section": "OVERVIEW",
+        "sections": "OVERVIEW | TYPES OF HAIR DENSITY | HIGH DENSITY",
+        "chunk_index": 0,
+        "chunk_count": 6,
+        "token_count": 95,
+        "start_char": 0,
+        "end_char": 527
+      }
+    },
+    {
+      "chunk_id": "hair_density::1",
+      "text": "Stronger hair ties may be needed for ponytails.\nVolume and fullness are generally not difficult to achieve.\n\nMEDIUM DENSITY\nFalls between low and high density.\nSome scalp may be visible, but the hair does not appear sparse.\nVolume can generally be achieved through appropriate styling products and techniques.\n\nLOW DENSITY\nThe scalp and part are more visible.\nThere is greater spacing between visible hair follicles.\nHair may have difficulty appearing full or voluminous.",
+      "metadata": {
+        "doc_id": "hair_density",
+        "title": "CURLSMITH — HAIR DENSITY AND CURLY-HAIR CARE",
+        "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care&ved=2ahUKEwjZheyqpM6WAxVtF2IAHQ5lDOgQFnoECCIQAQ&usg=AOvVaw2T-IvmjFyaSc_QZzOmjSVC",
+        "source_file": "processed_data/hair_density.txt",
+        "section": "HIGH DENSITY",
+        "sections": "HIGH DENSITY | MEDIUM DENSITY | LOW DENSITY",
+        "chunk_index": 1,
+        "chunk_count": 6,
+        "token_count": 89,
+        "start_char": 420,
+        "end_char": 891
+      }
+    },
+    {
+      "chunk_id": "hair_density::2",
+      "text": "There is greater spacing between visible hair follicles.\nHair may have difficulty appearing full or voluminous.\nPonytails may have a smaller circumference and require additional wraps with hair ties.\n\nTESTING HAIR DENSITY\nHair density can be scientifically measured by counting hairs per square inch.\nAt home, density can be estimated by measuring the circumference of a dry ponytail.\nSuggested ponytail measurements:\nHigh density: greater than 4 inches\nMedium density: 2–3 inches",
+      "metadata": {
+        "doc_id": "hair_density",
+        "title": "CURLSMITH — HAIR DENSITY AND CURLY-HAIR CARE",
+        "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care&ved=2ahUKEwjZheyqpM6WAxVtF2IAHQ5lDOgQFnoECCIQAQ&usg=AOvVaw2T-IvmjFyaSc_QZzOmjSVC",
+        "source_file": "processed_data/hair_density.txt",
+        "section": "LOW DENSITY",
+        "sections": "LOW DENSITY | TESTING HAIR DENSITY",
+        "chunk_index": 2,
+        "chunk_count": 6,
+        "token_count": 95,
+        "start_char": 780,
+        "end_char": 1260
+      }
+    },
+    {
+      "chunk_id": "hair_density::3",
+      "text": "At home, density can be estimated by measuring the circumference of a dry ponytail.\nSuggested ponytail measurements:\nHigh density: greater than 4 inches\nMedium density: 2–3 inches\nLow density: less than 2 inches\nFor hair that is too short to measure in a ponytail, scalp visibility and the width of the part can provide an indication of density.\n\nDENSITY AND HAIR ROUTINES\nHair density can influence how much volume or fullness a person naturally has.",
+      "metadata": {
+        "doc_id": "hair_density",
+        "title": "CURLSMITH — HAIR DENSITY AND CURLY-HAIR CARE",
+        "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care&ved=2ahUKEwjZheyqpM6WAxVtF2IAHQ5lDOgQFnoECCIQAQ&usg=AOvVaw2T-IvmjFyaSc_QZzOmjSVC",
+        "source_file": "processed_data/hair_density.txt",
+        "section": "TESTING HAIR DENSITY",
+        "sections": "TESTING HAIR DENSITY | DENSITY AND HAIR ROUTINES",
+        "chunk_index": 3,
+        "chunk_count": 6,
+        "token_count": 90,
+        "start_char": 1081,
+        "end_char": 1532
+      }
+    },
+    {
+      "chunk_id": "hair_density::4",
+      "text": "For hair that is too short to measure in a ponytail, scalp visibility and the width of the part can provide an indication of density.\n\nDENSITY AND HAIR ROUTINES\nHair density can influence how much volume or fullness a person naturally has.\nLow-density hair may benefit from techniques and products intended to create additional volume.\nHigh-density hair may require different styling approaches because fullness and volume are already naturally present.",
+      "metadata": {
+        "doc_id": "hair_density",
+        "title": "CURLSMITH — HAIR DENSITY AND CURLY-HAIR CARE",
+        "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care&ved=2ahUKEwjZheyqpM6WAxVtF2IAHQ5lDOgQFnoECCIQAQ&usg=AOvVaw2T-IvmjFyaSc_QZzOmjSVC",
+        "source_file": "processed_data/hair_density.txt",
+        "section": "TESTING HAIR DENSITY",
+        "sections": "TESTING HAIR DENSITY | DENSITY AND HAIR ROUTINES",
+        "chunk_index": 4,
+        "chunk_count": 6,
+        "token_count": 81,
+        "start_char": 1293,
+        "end_char": 1746
+      }
+    },
+    {
+      "chunk_id": "hair_density::5",
+      "text": "Low-density hair may benefit from techniques and products intended to create additional volume.\nHigh-density hair may require different styling approaches because fullness and volume are already naturally present.\nProduct selection and styling techniques should account for individual hair characteristics rather than relying on a single routine for everyone.",
+      "metadata": {
+        "doc_id": "hair_density",
+        "title": "CURLSMITH — HAIR DENSITY AND CURLY-HAIR CARE",
+        "source_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://curlsmith.com/blogs/curl-academy/hair-density-meaning-test-care&ved=2ahUKEwjZheyqpM6WAxVtF2IAHQ5lDOgQFnoECCIQAQ&usg=AOvVaw2T-IvmjFyaSc_QZzOmjSVC",
+        "source_file": "processed_data/hair_density.txt",
+        "section": "DENSITY AND HAIR ROUTINES",
+        "sections": "DENSITY AND HAIR ROUTINES",
+        "chunk_index": 5,
+        "chunk_count": 6,
+        "token_count": 56,
+        "start_char": 1533,
+        "end_char": 1892
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::0",
+      "text": "TOPIC\nHeat damage, damaged curls, breakage, trimming, and recovery\n\nOVERVIEW\nExcessive heat can cause significant damage to naturally curly hair. Heat-damaged hair may lose its original curl pattern and remain straight or limp even after washing, conditioning, and treatments. Community members generally recommend stopping additional heat exposure, treating the hair, and gradually removing damaged portions through trimming or cutting.\nIDENTIFYING HEAT DAMAGE\nHair that remains straight or limp after washing may indicate significant heat damage.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "TOPIC",
+        "sections": "TOPIC | OVERVIEW | IDENTIFYING HEAT DAMAGE",
+        "chunk_index": 0,
+        "chunk_count": 11,
+        "token_count": 92,
+        "start_char": 0,
+        "end_char": 548
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::1",
+      "text": "Community members generally recommend stopping additional heat exposure, treating the hair, and gradually removing damaged portions through trimming or cutting.\nIDENTIFYING HEAT DAMAGE\nHair that remains straight or limp after washing may indicate significant heat damage.\nA noticeable difference between curly roots and permanently straight ends can be a sign that the ends have been damaged.\nHeat damage can occur even after a single use of high heat, although the severity varies between individuals.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "OVERVIEW",
+        "sections": "OVERVIEW | IDENTIFYING HEAT DAMAGE",
+        "chunk_index": 1,
+        "chunk_count": 11,
+        "token_count": 82,
+        "start_char": 277,
+        "end_char": 779
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::2",
+      "text": "Heat damage can occur even after a single use of high heat, although the severity varies between individuals.\nHeat protectant reduces the risk of heat damage but does not guarantee that damage will not occur.\n\nCAN HEAT-DAMAGED CURLS BE RESTORED?\nSevere heat damage that permanently changes the hair's curl pattern generally cannot be completely reversed.\nTreatments such as deep conditioning, protein treatments, and bond-building products may improve the feel, strength, and manageability of damaged hair.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "IDENTIFYING HEAT DAMAGE",
+        "sections": "IDENTIFYING HEAT DAMAGE | CAN HEAT-DAMAGED CURLS BE RESTORED?",
+        "chunk_index": 2,
+        "chunk_count": 11,
+        "token_count": 93,
+        "start_char": 670,
+        "end_char": 1176
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::3",
+      "text": "Treatments such as deep conditioning, protein treatments, and bond-building products may improve the feel, strength, and manageability of damaged hair.\nThese treatments may not restore curls that have been permanently altered by heat.\nNew growth will retain the individual's natural curl pattern, while severely damaged portions may remain altered until they are trimmed away.\n\nTRIMMING AND REMOVING DAMAGED HAIR\nRemoving damaged hair is commonly recommended when treatments are no longer improving the hair.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "CAN HEAT-DAMAGED CURLS BE RESTORED?",
+        "sections": "CAN HEAT-DAMAGED CURLS BE RESTORED? | TRIMMING AND REMOVING DAMAGED HAIR",
+        "chunk_index": 3,
+        "chunk_count": 11,
+        "token_count": 88,
+        "start_char": 1025,
+        "end_char": 1533
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::4",
+      "text": "TRIMMING AND REMOVING DAMAGED HAIR\nRemoving damaged hair is commonly recommended when treatments are no longer improving the hair.\nA major haircut or \"big chop\" can remove the damaged portions at once.\nGradual trimming can be used when someone does not want to cut off all of the damaged hair immediately.\nDamaged sections can be trimmed every few months while the person continues wearing styles that disguise differences in texture.\nOne approach is to identify ends that remain straight while healthy hair curls and trim those damaged portions.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "TRIMMING AND REMOVING DAMAGED HAIR",
+        "sections": "TRIMMING AND REMOVING DAMAGED HAIR",
+        "chunk_index": 4,
+        "chunk_count": 11,
+        "token_count": 98,
+        "start_char": 1403,
+        "end_char": 1949
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::5",
+      "text": "Damaged sections can be trimmed every few months while the person continues wearing styles that disguise differences in texture.\nOne approach is to identify ends that remain straight while healthy hair curls and trim those damaged portions.\n\nSTYLING WHILE GROWING OUT DAMAGE\nStyles that can help blend damaged and healthy textures include:\nBraid-outs\nTwist-outs\nRoller sets\nPerm-rod sets\nFlexi-rod sets\nWigs with lower-tension construction\nLow-tension styles may be preferable when the hair is already damaged or fragile.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "TRIMMING AND REMOVING DAMAGED HAIR",
+        "sections": "TRIMMING AND REMOVING DAMAGED HAIR | STYLING WHILE GROWING OUT DAMAGE",
+        "chunk_index": 5,
+        "chunk_count": 11,
+        "token_count": 97,
+        "start_char": 1709,
+        "end_char": 2230
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::6",
+      "text": "Wigs with lower-tension construction\nLow-tension styles may be preferable when the hair is already damaged or fragile.\n\nTREATMENTS DISCUSSED BY THE COMMUNITY\nCommunity members suggested several types of treatments for damaged hair:\nBond-building treatments\nProtein treatments\nDeep conditioning\nHair masks\nSteam or heat-assisted deep conditioning\nBond-building products mentioned by commenters included Olaplex, Redken, L'Oréal, and Curlsmith products.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "STYLING WHILE GROWING OUT DAMAGE",
+        "sections": "STYLING WHILE GROWING OUT DAMAGE | TREATMENTS DISCUSSED BY THE COMMUNITY",
+        "chunk_index": 6,
+        "chunk_count": 11,
+        "token_count": 84,
+        "start_char": 2112,
+        "end_char": 2563
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::7",
+      "text": "Bond-building products mentioned by commenters included Olaplex, Redken, L'Oréal, and Curlsmith products. These recommendations are based on individual community experiences and should not be treated as guaranteed solutions for reversing heat damage.\n\nPROTEIN TREATMENTS\nProtein treatments were recommended by some community members to improve the strength and elasticity of damaged hair.\nProtein treatments should not necessarily be used excessively.\nToo much protein can contribute to stiffness, dryness, or breakage for some hair.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "TREATMENTS DISCUSSED BY THE COMMUNITY",
+        "sections": "TREATMENTS DISCUSSED BY THE COMMUNITY | PROTEIN TREATMENTS",
+        "chunk_index": 7,
+        "chunk_count": 11,
+        "token_count": 100,
+        "start_char": 2458,
+        "end_char": 2991
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::8",
+      "text": "Protein treatments should not necessarily be used excessively.\nToo much protein can contribute to stiffness, dryness, or breakage for some hair.\n\nHEAT-PROTECTION PRACTICES\nCommunity recommendations for reducing future heat damage include:\nUse a heat protectant before blow-drying.\nUse a separate thermal protectant designed for dry hair before flat-ironing.\nApply heat protectant evenly in sections rather than spraying it over the entire head at once.\nAvoid flat-ironing hair at excessively high temperatures.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "PROTEIN TREATMENTS",
+        "sections": "PROTEIN TREATMENTS | HEAT-PROTECTION PRACTICES",
+        "chunk_index": 8,
+        "chunk_count": 11,
+        "token_count": 98,
+        "start_char": 2847,
+        "end_char": 3357
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::9",
+      "text": "Apply heat protectant evenly in sections rather than spraying it over the entire head at once.\nAvoid flat-ironing hair at excessively high temperatures.\nReduce the frequency of heat styling.\nAvoid additional heat while recovering from existing heat damage.\nAllow hair to dry partially before blow-drying rather than applying high heat to soaking-wet hair.\nUse lower or moderate heat settings when possible.\nSome commenters recommended using multiple heat-protection products and products rated for temperatures up to 450°F.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "HEAT-PROTECTION PRACTICES",
+        "sections": "HEAT-PROTECTION PRACTICES",
+        "chunk_index": 9,
+        "chunk_count": 11,
+        "token_count": 97,
+        "start_char": 3205,
+        "end_char": 3728
+      }
+    },
+    {
+      "chunk_id": "heat_damage_tips::10",
+      "text": "Some commenters recommended using multiple heat-protection products and products rated for temperatures up to 450°F. These are community recommendations rather than universal requirements.",
+      "metadata": {
+        "doc_id": "heat_damage_tips",
+        "title": "HEAT DAMAGE AND CURL DAMAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1p7f1l6/damage_advice/",
+        "source_file": "processed_data/heat_damage_tips.txt",
+        "section": "HEAT-PROTECTION PRACTICES",
+        "sections": "HEAT-PROTECTION PRACTICES",
+        "chunk_index": 10,
+        "chunk_count": 11,
+        "token_count": 30,
+        "start_char": 3612,
+        "end_char": 3800
+      }
+    },
+    {
+      "chunk_id": "humidity::0",
+      "text": "TOPIC\nHumidity, frizz, shrinkage, curl definition, and maintaining stretched natural hair\n\nHOW HUMIDITY AFFECTS NATURAL HAIR\nHumid weather can cause curly and coily hair to lose definition and become more expanded or shrunken.\nSome community members describe humidity as making it difficult to maintain a stretched or defined style outdoors.\nSeveral commenters suggest that completely preventing frizz or shrinkage may not be realistic in highly humid environments.",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "TOPIC",
+        "sections": "TOPIC | HOW HUMIDITY AFFECTS NATURAL HAIR",
+        "chunk_index": 0,
+        "chunk_count": 9,
+        "token_count": 84,
+        "start_char": 0,
+        "end_char": 465
+      }
+    },
+    {
+      "chunk_id": "humidity::1",
+      "text": "Several commenters suggest that completely preventing frizz or shrinkage may not be realistic in highly humid environments.\nSome commenters recommend accepting or embracing shrinkage and frizz rather than trying to completely prevent them.\n\nSTRONG-HOLD STYLING PRODUCTS\nSeveral commenters recommend using strong-hold gels or styling products to help preserve curl definition in humid weather.\nCommunity suggestions include: \nUse a strong-hold gel or styling product.\nChoose products intended to provide longer-lasting hold.",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "HOW HUMIDITY AFFECTS NATURAL HAIR",
+        "sections": "HOW HUMIDITY AFFECTS NATURAL HAIR | STRONG-HOLD STYLING PRODUCTS",
+        "chunk_index": 1,
+        "chunk_count": 9,
+        "token_count": 94,
+        "start_char": 342,
+        "end_char": 865
+      }
+    },
+    {
+      "chunk_id": "humidity::2",
+      "text": "Use a strong-hold gel or styling product.\nChoose products intended to provide longer-lasting hold.\nApply styling products while the hair is still damp or wet.\nMake sure the hair is well-defined before allowing it to dry.\nAvoid disturbing the styling cast once the hair has completely dried, as some commenters believe the cast helps preserve definition.\nAnti-humidity sprays may also be used to help maintain a style.",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "STRONG-HOLD STYLING PRODUCTS",
+        "sections": "STRONG-HOLD STYLING PRODUCTS",
+        "chunk_index": 2,
+        "chunk_count": 9,
+        "token_count": 84,
+        "start_char": 767,
+        "end_char": 1184
+      }
+    },
+    {
+      "chunk_id": "humidity::3",
+      "text": "Avoid disturbing the styling cast once the hair has completely dried, as some commenters believe the cast helps preserve definition.\nAnti-humidity sprays may also be used to help maintain a style.\n\nHUMECTANTS AND HUMIDITY\nThe community has differing opinions about humectants in humid weather. One commenter recommends avoiding products with humectants when trying to maintain definition in humid conditions.\nAnother commenter recommends embracing humidity and using a humectant.",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "STRONG-HOLD STYLING PRODUCTS",
+        "sections": "STRONG-HOLD STYLING PRODUCTS | HUMECTANTS AND HUMIDITY",
+        "chunk_index": 3,
+        "chunk_count": 9,
+        "token_count": 88,
+        "start_char": 988,
+        "end_char": 1467
+      }
+    },
+    {
+      "chunk_id": "humidity::4",
+      "text": "One commenter recommends avoiding products with humectants when trying to maintain definition in humid conditions.\nAnother commenter recommends embracing humidity and using a humectant. Ingredients identified by commenters as humectants include glycerin, aloe vera, and honey.\n\nSTRETCHING THE HAIR\nSome commenters recommend using stretched hairstyles instead of trying to maintain a fully defined wash-and-go.\nSuggested techniques include:\nTwist-outs\nFinger coils\nBraids or twists used to stretch the hair",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "HUMECTANTS AND HUMIDITY",
+        "sections": "HUMECTANTS AND HUMIDITY | STRETCHING THE HAIR",
+        "chunk_index": 4,
+        "chunk_count": 9,
+        "token_count": 99,
+        "start_char": 1282,
+        "end_char": 1787
+      }
+    },
+    {
+      "chunk_id": "humidity::5",
+      "text": "Some commenters recommend using stretched hairstyles instead of trying to maintain a fully defined wash-and-go.\nSuggested techniques include:\nTwist-outs\nFinger coils\nBraids or twists used to stretch the hair\nAllowing twists to dry completely before taking them down\nUsing a hooded dryer or carefully drying the hair to improve definition\nRetwisting the hair at night to maintain the style",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "STRETCHING THE HAIR",
+        "sections": "STRETCHING THE HAIR",
+        "chunk_index": 5,
+        "chunk_count": 9,
+        "token_count": 77,
+        "start_char": 1580,
+        "end_char": 1968
+      }
+    },
+    {
+      "chunk_id": "humidity::6",
+      "text": "Using a hooded dryer or carefully drying the hair to improve definition\nRetwisting the hair at night to maintain the style\nOne commenter described using multiple sections for a twist-out, allowing the hair to dry, and separating the twists afterward to create a combination of curl definition, volume, and length.\n\nANTI-HUMIDITY PRODUCTS\nCommunity members also recommend products specifically marketed for humidity protection.\nSuggestions included:\nAnti-humidity sprays\nAnti-humidity serums\nStrong-hold gels",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "STRETCHING THE HAIR",
+        "sections": "STRETCHING THE HAIR | ANTI-HUMIDITY PRODUCTS",
+        "chunk_index": 6,
+        "chunk_count": 9,
+        "token_count": 96,
+        "start_char": 1846,
+        "end_char": 2353
+      }
+    },
+    {
+      "chunk_id": "humidity::7",
+      "text": "Community members also recommend products specifically marketed for humidity protection.\nSuggestions included:\nAnti-humidity sprays\nAnti-humidity serums\nStrong-hold gels\nCurl creams or custards designed to provide stronger hold\nSpecific product recommendations are based on individual experiences and may not work the same way for every hair type.\n\nEMBRACING SHRINKAGE AND FRIZZ\nNot all commenters recommend fighting humidity.\nSeveral responses suggest:\nAccepting natural shrinkage.\nEmbracing frizz rather than trying to eliminate it.",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "ANTI-HUMIDITY PRODUCTS",
+        "sections": "ANTI-HUMIDITY PRODUCTS | EMBRACING SHRINKAGE AND FRIZZ",
+        "chunk_index": 7,
+        "chunk_count": 9,
+        "token_count": 96,
+        "start_char": 2184,
+        "end_char": 2718
+      }
+    },
+    {
+      "chunk_id": "humidity::8",
+      "text": "Several responses suggest:\nAccepting natural shrinkage.\nEmbracing frizz rather than trying to eliminate it.\nAllowing the hair to respond naturally to humid weather.\nRecognizing that maintaining completely defined curls in humid conditions may be unrealistic.",
+      "metadata": {
+        "doc_id": "humidity",
+        "title": "HUMIDITY, FRIZZ, AND SHRINKAGE — COMMUNITY ADVICE",
+        "source_url": "https://www.reddit.com/r/Naturalhair/comments/1ki3a2z/how_ldo_yall_fight_humidity/",
+        "source_file": "processed_data/humidity.txt",
+        "section": "EMBRACING SHRINKAGE AND FRIZZ",
+        "sections": "EMBRACING SHRINKAGE AND FRIZZ",
+        "chunk_index": 8,
+        "chunk_count": 9,
+        "token_count": 45,
+        "start_char": 2611,
+        "end_char": 2869
+      }
+    },
+    {
+      "chunk_id": "length_retention::0",
+      "text": "TOPIC\nLength retention, breakage, dryness, and hair maintenance\n\nOVERVIEW\nLength retention refers to keeping the hair length that naturally grows rather than losing length through breakage, dryness, or damage. Hair grows from the scalp, but maintaining that length depends on how the existing hair is cared for, particularly the ends.\n\nCOMMON CAUSES OF POOR LENGTH RETENTION\n\nDRYNESS\nDry and brittle hair is more prone to breakage.\nMaintaining moisture can help support hair elasticity and strength.",
+      "metadata": {
+        "doc_id": "length_retention",
+        "title": "THE TRUTH ABOUT LENGTH RETENTION FOR NATURAL HAIR",
+        "source_url": "https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair",
+        "source_file": "processed_data/length_retention.txt",
+        "section": "TOPIC",
+        "sections": "TOPIC | OVERVIEW | COMMON CAUSES OF POOR LENGTH RETENTION | DRYNESS",
+        "chunk_index": 0,
+        "chunk_count": 6,
+        "token_count": 93,
+        "start_char": 0,
+        "end_char": 499
+      }
+    },
+    {
+      "chunk_id": "length_retention::1",
+      "text": "Dry and brittle hair is more prone to breakage.\nMaintaining moisture can help support hair elasticity and strength.\nDAMAGED OR SPLIT ENDS\nHolding onto damaged or split ends can contribute to additional breakage.\nRegular, intentional trims can help prevent damage from progressing further along the hair shaft.\nTrimming does not stop hair growth; it helps maintain the condition of the existing hair.\n\nPOOR WASH-DAY PRACTICES\nRushed or inconsistent cleansing can contribute to hair problems.",
+      "metadata": {
+        "doc_id": "length_retention",
+        "title": "THE TRUTH ABOUT LENGTH RETENTION FOR NATURAL HAIR",
+        "source_url": "https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair",
+        "source_file": "processed_data/length_retention.txt",
+        "section": "DRYNESS",
+        "sections": "DRYNESS | DAMAGED OR SPLIT ENDS | POOR WASH-DAY PRACTICES",
+        "chunk_index": 1,
+        "chunk_count": 6,
+        "token_count": 89,
+        "start_char": 384,
+        "end_char": 874
+      }
+    },
+    {
+      "chunk_id": "length_retention::2",
+      "text": "Trimming does not stop hair growth; it helps maintain the condition of the existing hair.\n\nPOOR WASH-DAY PRACTICES\nRushed or inconsistent cleansing can contribute to hair problems.\nSkipping conditioner can make the hair more difficult to manage.\nPoor detangling techniques can contribute to tangles and breakage.\nA consistent wash-day routine should include cleansing, conditioning, and careful detangling.\n\nINADEQUATE NIGHTTIME PROTECTION\nSleeping without protecting the hair can increase friction and dryness.",
+      "metadata": {
+        "doc_id": "length_retention",
+        "title": "THE TRUTH ABOUT LENGTH RETENTION FOR NATURAL HAIR",
+        "source_url": "https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair",
+        "source_file": "processed_data/length_retention.txt",
+        "section": "DAMAGED OR SPLIT ENDS",
+        "sections": "DAMAGED OR SPLIT ENDS | POOR WASH-DAY PRACTICES | INADEQUATE NIGHTTIME PROTECTION",
+        "chunk_index": 2,
+        "chunk_count": 6,
+        "token_count": 92,
+        "start_char": 694,
+        "end_char": 1205
+      }
+    },
+    {
+      "chunk_id": "length_retention::3",
+      "text": "A consistent wash-day routine should include cleansing, conditioning, and careful detangling.\n\nINADEQUATE NIGHTTIME PROTECTION\nSleeping without protecting the hair can increase friction and dryness.\nSatin bonnets or satin pillowcases can help reduce friction while sleeping.\n\nPRACTICES THAT SUPPORT LENGTH RETENTION\nCLEAN AND MOISTURIZED HAIR\nMaintain a consistent wash-day routine that includes cleansing, conditioning, and detangling. Proper moisture can help keep hair stronger and more resilient.\n\nREGULAR TRIMS\nTrim damaged or split ends when necessary.",
+      "metadata": {
+        "doc_id": "length_retention",
+        "title": "THE TRUTH ABOUT LENGTH RETENTION FOR NATURAL HAIR",
+        "source_url": "https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair",
+        "source_file": "processed_data/length_retention.txt",
+        "section": "POOR WASH-DAY PRACTICES",
+        "sections": "POOR WASH-DAY PRACTICES | INADEQUATE NIGHTTIME PROTECTION | PRACTICES THAT SUPPORT LENGTH RETENTION | CLEAN AND MOISTURIZED HAIR | REGULAR TRIMS",
+        "chunk_index": 3,
+        "chunk_count": 6,
+        "token_count": 100,
+        "start_char": 1007,
+        "end_char": 1565
+      }
+    },
+    {
+      "chunk_id": "length_retention::4",
+      "text": "Proper moisture can help keep hair stronger and more resilient.\n\nREGULAR TRIMS\nTrim damaged or split ends when necessary. Removing damaged ends can help prevent splits from progressing and causing additional breakage.\n\nLOW-MANIPULATION STYLING\nHairstyles that reduce daily manipulation can help minimize breakage. Protective styling can support length retention when the hair is properly prepared and the style is installed and maintained carefully.\n\nUNDERSTANDING INDIVIDUAL HAIR NEEDS\nHair-care practices should be adjusted according to the individual's hair needs.",
+      "metadata": {
+        "doc_id": "length_retention",
+        "title": "THE TRUTH ABOUT LENGTH RETENTION FOR NATURAL HAIR",
+        "source_url": "https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair",
+        "source_file": "processed_data/length_retention.txt",
+        "section": "CLEAN AND MOISTURIZED HAIR",
+        "sections": "CLEAN AND MOISTURIZED HAIR | REGULAR TRIMS | LOW-MANIPULATION STYLING | UNDERSTANDING INDIVIDUAL HAIR NEEDS",
+        "chunk_index": 4,
+        "chunk_count": 6,
+        "token_count": 97,
+        "start_char": 1444,
+        "end_char": 2011
+      }
+    },
+    {
+      "chunk_id": "length_retention::5",
+      "text": "UNDERSTANDING INDIVIDUAL HAIR NEEDS\nHair-care practices should be adjusted according to the individual's hair needs. Understanding the condition and characteristics of the hair can help guide decisions about products, techniques, and hairstyles.",
+      "metadata": {
+        "doc_id": "length_retention",
+        "title": "THE TRUTH ABOUT LENGTH RETENTION FOR NATURAL HAIR",
+        "source_url": "https://www.blackcurlmagic.com/blog/the-truth-about-length-retention-for-natural-hair",
+        "source_file": "processed_data/length_retention.txt",
+        "section": "UNDERSTANDING INDIVIDUAL HAIR NEEDS",
+        "sections": "UNDERSTANDING INDIVIDUAL HAIR NEEDS",
+        "chunk_index": 5,
+        "chunk_count": 6,
+        "token_count": 42,
+        "start_char": 1895,
+        "end_char": 2140
+      }
+    },
+    {
+      "chunk_id": "lo_po_reddit::0",
+      "text": "OVERVIEW\nLow-porosity curly hair may require adjustments to traditional curly-hair routines.\nImportant considerations include product buildup, protein sensitivity, product weight, and how individual hair responds to different ingredients and routines.\n\n\nPRODUCT BUILDUP\nCo-washing may contribute to buildup for some low-porosity hair types.\nHeavy oils may sit on top of low-porosity hair instead of absorbing into the strands.\nUsing too many products or layering excessive amounts can contribute to buildup.",
+      "metadata": {
+        "doc_id": "lo_po_reddit",
+        "title": "LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/",
+        "source_file": "processed_data/lo_po_reddit.txt",
+        "section": "OVERVIEW",
+        "sections": "OVERVIEW | PRODUCT BUILDUP",
+        "chunk_index": 0,
+        "chunk_count": 6,
+        "token_count": 95,
+        "start_char": 0,
+        "end_char": 507
+      }
+    },
+    {
+      "chunk_id": "lo_po_reddit::1",
+      "text": "Heavy oils may sit on top of low-porosity hair instead of absorbing into the strands.\nUsing too many products or layering excessive amounts can contribute to buildup.\nLightweight products may be preferable for low-porosity hair.\n\nPROTEIN SENSITIVITY\nProducts containing protein may cause some hair to feel straw-like or become less voluminous.\nProtein does not necessarily need to be eliminated completely.\nAdjusting the frequency or amount of protein-containing products may help manage sensitivity.",
+      "metadata": {
+        "doc_id": "lo_po_reddit",
+        "title": "LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/",
+        "source_file": "processed_data/lo_po_reddit.txt",
+        "section": "PRODUCT BUILDUP",
+        "sections": "PRODUCT BUILDUP | PROTEIN SENSITIVITY",
+        "chunk_index": 1,
+        "chunk_count": 6,
+        "token_count": 93,
+        "start_char": 341,
+        "end_char": 841
+      }
+    },
+    {
+      "chunk_id": "lo_po_reddit::2",
+      "text": "Protein does not necessarily need to be eliminated completely.\nAdjusting the frequency or amount of protein-containing products may help manage sensitivity.\n\nCLEANSING AND CONDITIONING\nShampooing one to two times per week may help manage buildup.\nConditioning during wash days can provide moisture while maintaining a simple routine.\nRegular cleansing may be particularly useful when using products that accumulate on the hair.\n\nSTYLING ROUTINE\nLimit the number of products layered onto the hair.\nPay attention to the amount of product being used rather than automatically applying multiple products.",
+      "metadata": {
+        "doc_id": "lo_po_reddit",
+        "title": "LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/",
+        "source_file": "processed_data/lo_po_reddit.txt",
+        "section": "PROTEIN SENSITIVITY",
+        "sections": "PROTEIN SENSITIVITY | CLEANSING AND CONDITIONING | STYLING ROUTINE",
+        "chunk_index": 2,
+        "chunk_count": 6,
+        "token_count": 99,
+        "start_char": 685,
+        "end_char": 1285
+      }
+    },
+    {
+      "chunk_id": "lo_po_reddit::3",
+      "text": "Limit the number of products layered onto the hair.\nPay attention to the amount of product being used rather than automatically applying multiple products.\nLightweight oils and products may be more appropriate for low-porosity hair.\nConsider ingredients such as humectants when developing a low-porosity routine.\n\nOBSERVED BENEFITS\nAdjusting the routine to account for low porosity and protein sensitivity may result in:\nSofter-feeling hair\nIncreased volume\nReduced frizz\nLess product buildup",
+      "metadata": {
+        "doc_id": "lo_po_reddit",
+        "title": "LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/",
+        "source_file": "processed_data/lo_po_reddit.txt",
+        "section": "STYLING ROUTINE",
+        "sections": "STYLING ROUTINE | OBSERVED BENEFITS",
+        "chunk_index": 3,
+        "chunk_count": 6,
+        "token_count": 89,
+        "start_char": 1130,
+        "end_char": 1622
+      }
+    },
+    {
+      "chunk_id": "lo_po_reddit::4",
+      "text": "Adjusting the routine to account for low porosity and protein sensitivity may result in:\nSofter-feeling hair\nIncreased volume\nReduced frizz\nLess product buildup\n\n\nGENERAL APPROACH\nTraditional curly-hair methods, including the Curly Girl Method (CGM), may not work equally well for everyone.\nHair-care routines should be adjusted based on individual hair characteristics and how the hair responds to specific products and ingredients.",
+      "metadata": {
+        "doc_id": "lo_po_reddit",
+        "title": "LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/",
+        "source_file": "processed_data/lo_po_reddit.txt",
+        "section": "OBSERVED BENEFITS",
+        "sections": "OBSERVED BENEFITS | GENERAL APPROACH",
+        "chunk_index": 4,
+        "chunk_count": 6,
+        "token_count": 79,
+        "start_char": 1462,
+        "end_char": 1895
+      }
+    },
+    {
+      "chunk_id": "lo_po_reddit::5",
+      "text": "Hair-care routines should be adjusted based on individual hair characteristics and how the hair responds to specific products and ingredients.\nLow-porosity hair may benefit from a simpler routine with lightweight products, controlled product usage, and regular cleansing.",
+      "metadata": {
+        "doc_id": "lo_po_reddit",
+        "title": "LOW-POROSITY CURLY HAIR — ROUTINE AND PRODUCT EXPERIENCE",
+        "source_url": "https://www.reddit.com/r/curlyhair/comments/bce9uh/my_low_porosity_hair_journey_porosity_matters/",
+        "source_file": "processed_data/lo_po_reddit.txt",
+        "section": "GENERAL APPROACH",
+        "sections": "GENERAL APPROACH",
+        "chunk_index": 5,
+        "chunk_count": 6,
+        "token_count": 46,
+        "start_char": 1753,
+        "end_char": 2024
+      }
+    },
+    {
+      "chunk_id": "protective_styling::0",
+      "text": "OVERVIEW\n\nProtective styles are commonly used to reduce daily manipulation and potential breakage.However, styles involving extensions can also contribute to breakage and hair loss when they prevent regular hair care or create excessive tension.Protective-style recommendations should consider both curl pattern and hair density.\n\nRISKS OF PROTECTIVE STYLES\n\n Extensions such as braids, weaves, wigs, and other added-hair styles can make regular washing and conditioning more difficult.",
+      "metadata": {
+        "doc_id": "protective_styling",
+        "title": "PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE",
+        "source_url": "https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern",
+        "source_file": "processed_data/protective_styling.txt",
+        "section": "OVERVIEW",
+        "sections": "OVERVIEW | RISKS OF PROTECTIVE STYLES",
+        "chunk_index": 0,
+        "chunk_count": 6,
+        "token_count": 84,
+        "start_char": 0,
+        "end_char": 486
+      }
+    },
+    {
+      "chunk_id": "protective_styling::1",
+      "text": "Extensions such as braids, weaves, wigs, and other added-hair styles can make regular washing and conditioning more difficult. Inadequate washing and conditioning can contribute to dryness and breakage, particularly for hair prone to dryness. Breakage can increase during the removal of extensions. Tight protective styles can place tension on the hairline and contribute to thinning or traction alopecia. Hair lost during takedown may include both naturally shed hair and broken hairs.",
+      "metadata": {
+        "doc_id": "protective_styling",
+        "title": "PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE",
+        "source_url": "https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern",
+        "source_file": "processed_data/protective_styling.txt",
+        "section": "RISKS OF PROTECTIVE STYLES",
+        "sections": "RISKS OF PROTECTIVE STYLES",
+        "chunk_index": 1,
+        "chunk_count": 6,
+        "token_count": 94,
+        "start_char": 360,
+        "end_char": 846
+      }
+    },
+    {
+      "chunk_id": "protective_styling::2",
+      "text": "Tight protective styles can place tension on the hairline and contribute to thinning or traction alopecia. Hair lost during takedown may include both naturally shed hair and broken hairs. Significant amounts of hair coming out after removing a protective style should not automatically be considered normal shedding.\n\nSTYLES TO APPROACH WITH CAUTION\n\n* Microbraids\n* Sisterlocks for individuals with lower-density hair or a history of hair loss\n* Glued-in weaves\n* Lace-front wigs attached with glue or tape",
+      "metadata": {
+        "doc_id": "protective_styling",
+        "title": "PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE",
+        "source_url": "https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern",
+        "source_file": "processed_data/protective_styling.txt",
+        "section": "RISKS OF PROTECTIVE STYLES",
+        "sections": "RISKS OF PROTECTIVE STYLES | STYLES TO APPROACH WITH CAUTION",
+        "chunk_index": 2,
+        "chunk_count": 6,
+        "token_count": 99,
+        "start_char": 659,
+        "end_char": 1166
+      }
+    },
+    {
+      "chunk_id": "protective_styling::3",
+      "text": "* Sisterlocks for individuals with lower-density hair or a history of hair loss\n* Glued-in weaves\n* Lace-front wigs attached with glue or tape\n* Styles that create excessive tension or remain installed for extended periods\n\nPROTECTIVE STYLES BY CURL PATTERN AND DENSITY\n\n3C/4A — NORMAL DENSITY\n\n* These curl patterns are generally less prone to dryness compared with tighter curl patterns.",
+      "metadata": {
+        "doc_id": "protective_styling",
+        "title": "PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE",
+        "source_url": "https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern",
+        "source_file": "processed_data/protective_styling.txt",
+        "section": "STYLES TO APPROACH WITH CAUTION",
+        "sections": "STYLES TO APPROACH WITH CAUTION | PROTECTIVE STYLES BY CURL PATTERN AND DENSITY | 3C/4A — NORMAL DENSITY",
+        "chunk_index": 3,
+        "chunk_count": 6,
+        "token_count": 77,
+        "start_char": 1024,
+        "end_char": 1413
+      }
+    },
+    {
+      "chunk_id": "protective_styling::4",
+      "text": "3C/4A — NORMAL DENSITY\n\n* These curl patterns are generally less prone to dryness compared with tighter curl patterns.\n* Normal-density 3C/4A hair may have a lower risk of breakage and edge thinning while wearing extensions.\n* Suggested styles include:\n\n  * Box braids\n  * Senegalese twists\n  * Jumbo braids\n  * Sew-in weaves\n  * Wigs\n  * Crochet braids\n* Protective styles should still be used in moderation.",
+      "metadata": {
+        "doc_id": "protective_styling",
+        "title": "PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE",
+        "source_url": "https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern",
+        "source_file": "processed_data/protective_styling.txt",
+        "section": "3C/4A — NORMAL DENSITY",
+        "sections": "3C/4A — NORMAL DENSITY",
+        "chunk_index": 4,
+        "chunk_count": 6,
+        "token_count": 94,
+        "start_char": 1295,
+        "end_char": 1704
+      }
+    },
+    {
+      "chunk_id": "protective_styling::5",
+      "text": "* Wigs\n  * Crochet braids\n* Protective styles should still be used in moderation.\n\n4A/4B — NORMAL DENSITY\n\n* 4A/4B hair may be less prone to dryness than 4C hair but can still experience breakage during extended protective styles.\n* Avoid keeping styles installed for excessively long periods.\n* Protective styles should be selected based on the individual's curl pattern, density, and history of breakage or thinning.",
+      "metadata": {
+        "doc_id": "protective_styling",
+        "title": "PROTECTIVE STYLES — CURL PATTERN, DENSITY, AND BREAKAGE",
+        "source_url": "https://www.crystalaguhmd.com/post/choosing-the-best-summer-protective-style-for-your-curl-pattern",
+        "source_file": "processed_data/protective_styling.txt",
+        "section": "3C/4A — NORMAL DENSITY",
+        "sections": "3C/4A — NORMAL DENSITY | 4A/4B — NORMAL DENSITY",
+        "chunk_index": 5,
+        "chunk_count": 6,
+        "token_count": 92,
+        "start_char": 1623,
+        "end_char": 2041
+      }
+    },
+    {
+      "chunk_id": "styling_curly_hair::0",
+      "text": "LOOSER CURLS\nPRODUCTS\nLightweight creams are recommended for looser curls. Lightweight gels can provide definition without weighing down the hair. Detanglers can help with managing and preparing the hair. Heavy creams and gels may weigh down looser curls and cause excessive clumping.Strong-hold or “heavy-duty” gels are better suited for updos and hairstyles requiring stronger hold.",
+      "metadata": {
+        "doc_id": "styling_curly_hair",
+        "title": "PRODUCTS & STYLING — CURL-SPECIFIC ADVICE",
+        "source_url": "https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/",
+        "source_file": "processed_data/styling_curly_hair.txt",
+        "section": "LOOSER CURLS",
+        "sections": "LOOSER CURLS | PRODUCTS",
+        "chunk_index": 0,
+        "chunk_count": 5,
+        "token_count": 82,
+        "start_char": 0,
+        "end_char": 384
+      }
+    },
+    {
+      "chunk_id": "styling_curly_hair::1",
+      "text": "Heavy creams and gels may weigh down looser curls and cause excessive clumping.Strong-hold or “heavy-duty” gels are better suited for updos and hairstyles requiring stronger hold.\nBrands like Rizzo's Curls have lightweight products that will help with definition without weighing 3a-3c curly hair down. \n\nAPPLICATION\nApply products to damp hair rather than soaking-wet hair. Damp hair allows products to absorb moisture without excessive dripping.",
+      "metadata": {
+        "doc_id": "styling_curly_hair",
+        "title": "PRODUCTS & STYLING — CURL-SPECIFIC ADVICE",
+        "source_url": "https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/",
+        "source_file": "processed_data/styling_curly_hair.txt",
+        "section": "PRODUCTS",
+        "sections": "PRODUCTS | APPLICATION",
+        "chunk_index": 1,
+        "chunk_count": 5,
+        "token_count": 93,
+        "start_char": 205,
+        "end_char": 652
+      }
+    },
+    {
+      "chunk_id": "styling_curly_hair::2",
+      "text": "Apply products to damp hair rather than soaking-wet hair. Damp hair allows products to absorb moisture without excessive dripping. Hair masks can be applied to soaking-wet hair when appropriate.\n\n\nTIGHTER CURLS\nPRODUCTS\nHeavier creams and gels may be more suitable for tighter curls, depending on the desired hairstyle. Lightweight gels may help control frizz but may not provide enough hold for lasting curl definition. A lightweight gel can help maintain definition when paired with a heavier curling cream.",
+      "metadata": {
+        "doc_id": "styling_curly_hair",
+        "title": "PRODUCTS & STYLING — CURL-SPECIFIC ADVICE",
+        "source_url": "https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/",
+        "source_file": "processed_data/styling_curly_hair.txt",
+        "section": "APPLICATION",
+        "sections": "APPLICATION | TIGHTER CURLS | PRODUCTS",
+        "chunk_index": 2,
+        "chunk_count": 5,
+        "token_count": 95,
+        "start_char": 522,
+        "end_char": 1031
+      }
+    },
+    {
+      "chunk_id": "styling_curly_hair::3",
+      "text": "Lightweight gels may help control frizz but may not provide enough hold for lasting curl definition. A lightweight gel can help maintain definition when paired with a heavier curling cream.\n\nProduct combinations that may work well include:\nLight curling cream + heavier gel\nGel + mousse\nHeavier curling cream + lightweight gel\nCurling cream + mousse",
+      "metadata": {
+        "doc_id": "styling_curly_hair",
+        "title": "PRODUCTS & STYLING — CURL-SPECIFIC ADVICE",
+        "source_url": "https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/",
+        "source_file": "processed_data/styling_curly_hair.txt",
+        "section": "PRODUCTS",
+        "sections": "PRODUCTS",
+        "chunk_index": 3,
+        "chunk_count": 5,
+        "token_count": 66,
+        "start_char": 842,
+        "end_char": 1191
+      }
+    },
+    {
+      "chunk_id": "styling_curly_hair::4",
+      "text": "Light curling cream + heavier gel\nGel + mousse\nHeavier curling cream + lightweight gel\nCurling cream + mousse\n\nBrands like Aunt Jackies, Shea Moisture, Carol's Daughter, and African pride's moisture miracle are typically good choices for those with curlier hair textures (3c-4c).",
+      "metadata": {
+        "doc_id": "styling_curly_hair",
+        "title": "PRODUCTS & STYLING — CURL-SPECIFIC ADVICE",
+        "source_url": "https://forum.looksmaxxing.com/threads/hair-care-pt-1-finding-your-curl-type-and-products-to-use-simple-version.160343/",
+        "source_file": "processed_data/styling_curly_hair.txt",
+        "section": "PRODUCTS",
+        "sections": "PRODUCTS",
+        "chunk_index": 4,
+        "chunk_count": 5,
+        "token_count": 63,
+        "start_char": 1082,
+        "end_char": 1361
+      }
+    }
+  ]
+}

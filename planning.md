@@ -42,32 +42,31 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
 ## Chunking Strategy
 
 <!-- How will you split documents into chunks?
-     State your chunk size (in tokens or characters), overlap size, and explain why those
-     numbers fit the structure of your documents.
-     A review-heavy corpus warrants different chunking than a long FAQ. -->
+     State your chunk size (in tokens or characters), overlap size, and explain why those numbers fit the structure of your documents.
+     A review-heavy corpus warrants different chunking than a long FAQ.
+      -->
 
-**Chunk size:**
+**Chunk size:** --> 250 tokens
 
-**Overlap:**
+**Overlap:** --> 40 tokens
 
-**Reasoning:**
+**Reasoning:** --> I initially planned to use 500 token chunks with a 75 token overlap. During implementation, the resulting chunks were too large and produced only 14 chunks across the 10 documents. Larger chunks also risk including unrelated information, which could make retrieval less precise for specific user questions. I therefore changed the strategy to 100 token chunks with a 20 token overlap. The smaller chunks should allow the retrieval system to identify more specific pieces of information while the overlap helps preserve context across chunk boundaries.
 
 ---
 
 ## Retrieval Approach
 
 <!-- Which embedding model are you using (e.g., all-MiniLM-L6-v2 via sentence-transformers)?
-     How many chunks will you retrieve per query (top-k)?
-     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs
-     would you weigh in choosing a different embedding model — context length, multilingual
-     support, accuracy on domain-specific text, latency? -->
+     How many chunks will you retrieve per query (top-k)? 
+     If you were deploying this for real users and cost wasn't a constraint, what tradeoffs would you weigh in choosing a different embedding model — context length, multilingual support, accuracy on domain-specific text, latency? 
 
+-->
 **Embedding model:**
-
+--> all-MiniLM-L6-v2 via sentence-transformers
 **Top-k:**
-
+--> 3 chunks 
 **Production tradeoff reflection:**
-
+--> If this system were deployed for real users, I would consider a more advanced embedding model if it provided better retrieval accuracy for domain-specific hair-care terminology. I would also consider context length, multilingual support, and latency. A more accurate model may improve retrieval quality, but it could also require more computational resources and increase response time.
 ---
 
 ## Evaluation Plan
@@ -79,11 +78,11 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What styling techniques, maintenance practices, and product recommendations are discussed for 4C natural hair? | The system should retrieve the Reddit discussion about 4c hair and identify the products and techniques discussed by the user/community. The answer should make clear that these are personal/community recommendations, rather than universally proven rules. |
+| 2 | What practices can help me retain length while maintaining healthy natural hair? | The system should retreieve information from the Black Curl Magic blog. It should discuss practices such as protective styling, reducing manipulation,and maintaining healthy hair practices.|
+| 3 | I work out several times a week and don't want to wash my natural hair after every workout. How can I maintain my hairstyle between workouts?| The system should retrieve from the workout Reddit discussion and explain strategies users shared for maintaining hair between workouts. It should discuss how to protect the hair during exercise, managing sweat, and refreshing the hairstyle. |
+| 4 | My natural hair has heat damage. What approaches should be used to adjust my routine and care for my hair afterward? | The system shoudl retrieve from the heat damage Reddit discussion and summarize the approaches and experiences shared by users. It should avoid using the indivudal experiences as guaranteed treatments. |
+| 5 | How do hair-care recommendations differ between low-porosity and high-porosity hair, especially when it comes to products and styling?| TThe system should retrieve information from both the low-porosity and high-porosity sources and compare the product and styling recommendations discussed in each. The response should explain differences in how the sources describe caring for low- and high-porosity hair and should distinguish personal experiences from universally established facts.|
 
 ---
 
@@ -93,9 +92,9 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1.The first risk is that the system may retrieve chunks that have similar keywords, but are not actually relevant to the user's question. This could result in irrelevant responses. 
 
-2.
+2.The second risk is that the chunking may separate relevant information across different chunks. For examples, a hair type might be explained in one chunk while its corresponding styling reccomendation may appear in another. If only one chunk is retrieved, then the system will lack enough context to provide a decent answer. 
 
 ---
 
@@ -107,6 +106,33 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
+┌──────────────────────────────┐
+│ 1. Document Ingestion        │
+│ Python + Processed TXT Files │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 2. Chunking                  │
+│ Fixed-Size + Overlap         │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 3. Embedding + Vector Store  │
+│ sentence-transformers        │
+│ (all-MiniLM-L6-v2) + ChromaDB│
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 4. Retrieval                 │
+│ ChromaDB Similarity Search   │
+│ Top-k = 3                    │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ 5. Generation                │
+│ gpt-oss-120b + Context       │
+└──────────────────────────────┘
+
 ---
 
 ## AI Tool Plan
@@ -114,15 +140,24 @@ The domain I chose is how to style and maintain naturally curly hair, specifical
 <!-- For each part of the pipeline below, describe:
      - Which AI tool you plan to use (Claude, Copilot, ChatGPT, etc.)
      - What you'll give it as input (which sections of this planning.md, which requirements)
-     - What you expect it to produce
-     - How you'll verify the output matches your spec
+
+
+     - What you expect it to produce?
+     
+
+     - How you'll verify the output matches your spec?
+     
+
 
      "I'll use AI to help me code" is not a plan.
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
+--> I will provide Claude with my documents and chunking strategiy sections and ask it to implement the document ingestion adn chunking pipeline. The code should read my processed .txt files and divide them into 500 token chunks with a 75 token overlap. I will inspect the generated chunks to verify the text is organzed correctly and that important information is not unnecessarily separated.
 
 **Milestone 4 — Embedding and retrieval:**
+--> Claude will receieve my retrieval approach and archtiecture sections and ask it to implement the embedding and retrieval pipeline. It should use all-MiniLM-L6-v2 through sentence-transformers to create embeddings and ChromaDB to store them. The retrieval system should return the top 3 most relevant chunks for each user query. I will verify the retrieval results using my five evaluation questions and check whether the retrieved chunks are relevant to each question.
 
 **Milestone 5 — Generation and interface:**
+--> I will provide Claude with my evaluation plan and ask it to implement the generation stage and Streamlit interface. The system should pass the retrieved chunks as context to gpt-oss-120b so that it generates answers based on the provided sources. I will test the interface using my five evaluation questions and compare the generated answers with the source documents to check for accuracy and unsupported information.
